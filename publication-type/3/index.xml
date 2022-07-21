@@ -5,7 +5,7 @@
     <link>https://yezhengSTAT.github.io/publication-type/3/</link>
       <atom:link href="https://yezhengSTAT.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 02 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
@@ -13,18 +13,34 @@
     </image>
     
     <item>
-      <title>TreeHiC: Hierarchical Testing for Differential Chromatin Interactions.</title>
-      <link>https://yezhengSTAT.github.io/publication/treehic/</link>
-      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://yezhengSTAT.github.io/publication/treehic/</guid>
+      <title>High-throughput, high sensitivity mapping of human T cell and CAR-T cell epigenomic landscapes underscores the role of H3K27me3 in subset differences and therapeutic outcomes</title>
+      <link>https://yezhengSTAT.github.io/publication/cart_cutrun/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/cart_cutrun/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FreeHiC: Data-driven simulations for Hi-C experiment.</title>
-      <link>https://yezhengSTAT.github.io/publication/freehic/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://yezhengSTAT.github.io/publication/freehic/</guid>
+      <title>Robust Normalization and Integration of Single-cell Protein Expression across CITE-seq Datasets</title>
+      <link>https://yezhengSTAT.github.io/publication/adtnorm/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/adtnorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normalization and De-noising of Single-cell Hi-C Data with BandNorm and scVI-3D</title>
+      <link>https://yezhengSTAT.github.io/publication/bandnorm/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/bandnorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TreeHiC: Hierarchical Testing for Differential Chromatin Interactions.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/treehic/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/treehic/</guid>
       <description></description>
     </item>
     

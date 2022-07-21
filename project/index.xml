@@ -5,7 +5,7 @@
     <link>https://yezhengSTAT.github.io/project/</link>
       <atom:link href="https://yezhengSTAT.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 31 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -13,15 +13,274 @@
     </image>
     
     <item>
-      <title>Example Project</title>
-      <link>https://yezhengSTAT.github.io/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://yezhengSTAT.github.io/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <title>3D Chromatin Organization</title>
+      <link>https://yezhengSTAT.github.io/project/3dgenome/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/3dgenome/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;The role that chromatin architecture plays in the mechanism of gene regulation has undergone a dramatic transformation with the emergence of Hi-C and other 3C-derived high throughput technology for interrogating the three-dimensional configurations of the genome and identifying regions that are in close spatial proximity in a genome-wide fashion. As the sequencing depth grows, the resolution to investigate the 3D chromatin interactions goes from Megabase scale to kilobase or even hundred-base genomic scale. Furthermore, with the development of other &amp;ldquo;C&amp;rdquo;-related techniques, for instance, HiChIP, DNaseHiC, Capture Hi-C, etc., we will be able to investigate all kinds of genomic interactions at ultra-high resolution across the whole genome from the anchor regions that can be associated with clinically relevant loci such as regulatory elements, single nucleotide polymorphisms (SNPs) from GWAS studies, chromatin domain boundaries or promoters. Analysis of 3D genome data will resolve many fundamental and long-standing questions involving the mechanism of gene regulation from distal non-coding regulatory variants, linking novel SNPs to putative disease-associated genes related to all sorts of disorders, the connection between chromatin domain structure variation and cancer or other genetic diseases.&lt;/p&gt;
+&lt;p&gt;Such technological advances in 3D genomics lead to great needs for new statistical models and computational tools to harness the embedding conformation information present in Hi-C data. To achieve decent interaction resolution, namely, how specific the region can be if we zoom in the genome to the largest extent, one study usually has billions of reads for each biological replicate. Hence, it poses a tough challenge on the model which should be theoretically sound and practically applicable and implementable within a short time. Realizing the demand in the field, I have developed a few fundamental methods, mHi-C, FreeHi-C, FreeHi-C SpikeIn, BandNorm and scVI-3D, with the corresponding software packages or pipelines to address many basic needs in dealing with Hi-C data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_472aeb3f2eedb0e149c66981559d59b7.webp 400w,
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_9c5860f2399ff831e1ad93ebe6075cad.webp 760w,
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_472aeb3f2eedb0e149c66981559d59b7.webp&#34;
+               width=&#34;747&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Due to the importance of sequencing depth in Hi-C analysis, I developed mHi-C (Zheng et al. 2019 &lt;em&gt;eLife&lt;/em&gt;) to utilize multi-mapping reads that are discarded in Hi-C benchmark analysis pipeline. Multi-mapping reads are reads originated from repetitive regions of the genome hence they can be aligned to multiple positions. The ambiguity of multi-reads alignment renders them to be deleted wasting ~20% of the sequencing depth which can be translated into hundreds of millions of reads for one biological replicate. Through a hierarchical model that probabilistically allocates Hi-C multi-reads to their most likely genomic origins by utilizing specific characteristics of the paired-end reads of the Hi-C assay, the chromatin domain boundaries are refined and we can also detect novel promoter-enhancer interactions that involve disease-associated genes. Moreover, mHi-C, itself is programmed into a python pipeline with C acceleration, can process from raw data and output valid genomic interactions. Another urgent demand from both experimental labs and computational groups is a tool to fast simulate Hi-C contact matrices to work as biological replicates to improve the detection power or employed as a test of models under development. Also, the tool should be easy to use for researchers from all kinds of background. Therefore, I have developed FreeHiC (Zheng et al. 2020. &lt;strong&gt;Nature Methods&lt;/strong&gt;) and FreeHi-C SpikeIn (Zheng et al. 2021. &lt;strong&gt;Methods&lt;/strong&gt;)  which empirically learns the interacting fragment behaviors,  sequence characters, according to the Hi-C experimental protocol procedures. Sequently, with the user-controlled level of noise being inserted into the simulation process,  a similar Hi-C interaction matrix is generated.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_a581e4855ed8ab71af002cca53f70826.webp 400w,
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_99ae51a052a135af039d1fbd809b937b.webp 760w,
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_a581e4855ed8ab71af002cca53f70826.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;447&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Recently, single-cell high-throughput chromatin conformation capture methodologies (scHi-C) enable profiling long-range genomic interactions. However, data from these technologies are prone to technical noise and biases that hinder downstream analysis. Collaborating with Keles Lab, we developed a normalization approach, BandNorm, and a deep generative modeling framework, scVI-3D, to account for scHi-C specific biases. In benchmarking experiments, BandNorm yields leading performances in a time and memory efficient manner for cell-type separation, identification of interacting loci, and recovery of cell-type relationships, while scVI-3D exhibits advantages for rare cell types and under high sparsity scenarios. Application of BandNorm coupled with gene-associating domain analysis reveals scRNA-seq validated sub-cell type identification.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_7d18f3aab3f3afbfe9e3da14b1ace5b5.webp 400w,
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_3e3ea8a5fead5556505e7f925f86bf02.webp 760w,
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_7d18f3aab3f3afbfe9e3da14b1ace5b5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;555&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y+&lt;/strong&gt;, Shen S+, Keleş S. &lt;a href=&#34;https://doi.org/10.1101/2021.03.10.434870&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Normalization and De-noising of Single-cell Hi-C Data with BandNorm and scVI-3D&lt;/a&gt;. bioRxiv. Under the second round of review by &lt;em&gt;&lt;strong&gt;Genome Biology&lt;/strong&gt;&lt;/em&gt;. 2022. (+: co-first authors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cheng J, Clayton J, Acemel R, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Taylor R, Keleş S, Harley J, Quail E, Gómez-Skarmeta J and Ulgiati D. &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fimmu.2022.901747/full&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regulatory architecture of the RCA gene cluster captures an intragenic TAD boundary and enhancer elements in B cells&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Frontiers in Immunology, section B Cell Biology&lt;/strong&gt;&lt;/em&gt;. 2022.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Zhou P, Keleş S. &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S1046202320300852?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeHi-C Spike-in Simulations for Benchmarking Differential Chromatin Interaction Detection&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Huang K, Wu Y, Shin J, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Siahpirani A, Lin Y, Ni Z, Chen J, You J, Keleş S, Wang D, Roy S, Lu Q. &lt;a href=&#34;https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009309&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transcriptome-wide transmission disequilibrium analysis identifies novel risk genes for autism spectrum disorder&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;PLOS Genetics&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Keleş S. &lt;a href=&#34;https://www.nature.com/articles/s41592-019-0624-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature Methods&lt;/strong&gt;&lt;/em&gt;. 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, et al. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2493-4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Expanded Encyclopedias of DNA Elements in the Human and Mouse Genomes&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, Snyder, M.P., Gingeras, T.R., Moore, J.E., Weng, Z., Gerstein, M.B., Ren, B., Hardison, R.C., Stamatoyannopoulos, J.A., Graveley, B.R., Feingold, E.A. and Pazin, M.J. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2449-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perspectives on ENCODE&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Ay F, Keleş S. &lt;a href=&#34;https://elifesciences.org/articles/38070&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative modeling of multi-mapping reads with mHi-C advances analysis of Hi-C studies&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;eLife&lt;/strong&gt;&lt;/em&gt;. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CAR-T cell therapy genomic profiling and clinical association study.</title>
+      <link>https://yezhengSTAT.github.io/project/immunotherapy/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/immunotherapy/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;Motivated by computational needs and challenges in infectious diseases and immunotherapy, I have been actively working on the development of statistical methods and tools for analyzing single-cell multi-omics data in addressing immunological and immunotherapeutic problems. My postdoctoral training at the Fred Hutchinson Cancer Center enables me to participate in immunological studies and interact with clinicians directly. This significantly allows me to gain insights into high-throughput assays and high-dimensional cellular analysis, specially designed to address immune cell heterogeneity. Through close collaboration with the &lt;a href=&#34;https://research.fredhutch.org/turtle/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turtle Lab&lt;/a&gt;, I have constructed a specific computational framework for processing and analyzing the CAR-T cell therapy CITE-seq data. Additionally, with the Turtle Lab and the &lt;a href=&#34;https://research.fredhutch.org/henikoff/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henikoff Lab&lt;/a&gt;, we have also profiled the epigenomic landscape (using CUT&amp;amp;RUN, scCUT&amp;amp;Tag data) of the CAR-T cells of both patients and healthy donors to investigate the cell type origin after CAR-T manufacturing stimulation. Collectively, we can reveal the genomic marker association with the CAR-T cell therapy clinical efficacy and toxicity from both transcriptomics and epigenomics perspectives.&lt;/p&gt;
+&lt;p&gt;I have built a repertoire of collaborative research experience with statisticians, computational biologists, molecular biologists, and immunologists worldwide to address immunological and immunotherapeutic challenges.&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Fiorenza S+, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Sarthy J, Sheih AS, Wu Q, Hirayama AV, Kimble EL, Kirchmeier D, Gottardo R, Henikoff S, Turtle CJ. High-throughput, high sensitivity mapping of human T cell and CAR-T cell epigenomic landscapes underscores the role of H3K27me3 in subset differences and therapeutic outcomes. Manuscript in preparation. (+ Co-first author)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Germanos AA, Arora S, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Goddard ET, Coleman IM, Ku AT, Wilkinson S, Amezquita RA, Zager M, Long A, Yang YC, Bielas J, Gottardo R, Ghajar C, Nelson P, Sowalsky A, Setty M, Hsieh A. &lt;a href=&#34;https://doi.org/10.1101/2022.03.02.482711&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Defining cellular population dynamics at single cell resolution during prostate cancer progression&lt;/a&gt;. BioRxiv. 2022. Under review for &lt;em&gt;&lt;strong&gt;eLife&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hirayama AV, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Dowling MR, Sheih A, Phi TD, Kirchmeier DR, Chucka AW, Gauthier J, Maloney DG, Gottardo R, Turtle CJ. &lt;a href=&#34;https://doi.org/10.1182/blood-2021-151571&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Long-Term Follow-up and Single-Cell Multiomics Characteristics of Infusion Products in Patients with Chronic Lymphocytic Leukemia Treated with CD19 CAR-T Cells&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Blood&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vitanza N, Biery M, Myers C, Ferguson E, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Girard E, Przystal J, Park G, Noll A, Pakiam F, Winter C, Morris S, Sarthy J, Cole B, Leary S, Crane C, Lieberman N, Mueller S, Nazarian J, Gottardo R, Brusniak M, Mhyre A, Olson J, &lt;a href=&#34;https://doi.org/10.1093/neuonc/noaa249&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimal therapeutic targeting by HDAC inhibition in biopsy-derived treatment-naïve diffuse midline glioma models.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;Neuro-Oncology&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Ahmad K, Henikoff K. &lt;a href=&#34;dx.doi.org/10.17504/protocols.io.bjk2kkye&#34;&gt;CUTTag Data Processing and Analysis Tutorial&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Protocols.io&lt;/strong&gt;&lt;/em&gt;. 2020. (15,266 views, 4,355 exports, and 194 questions)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Liao R+, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Liu X, Zhang Y, Seim G, Tanimura N, Wilson G, Hematti P, Coon J, Fan J, Xu J, Keleş S++ and Bresnick E++. &lt;a href=&#34;https://doi.org/10.1016/j.celrep.2020.107832&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discovering How Heme Controls Genome Function Through Heme-omics&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Cell Reports&lt;/strong&gt;&lt;/em&gt;. 2020. (+co-first authors,
+++co-corresponding authors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Soukup AA, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Mehta C, Liu P, Hofmann I, Zhou Y, Zhang J, Choi K, Johnson KD, Keles S, Bresnick EH. &lt;a href=&#34;https://www.jci.org/articles/view/122694&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Single-nucleotide human disease mutation inactivates a blood-regenerative GATA2 enhancer&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Journal of Clinical Investigation&lt;/strong&gt;&lt;/em&gt;. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tanimura N, Liao R, Wilson GM, Dent MR, Cao M, Burstyn JN, Hematti P, Liu X, Zhang Y, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Keleş S, Xu J, Coon J, Bresnick E. &lt;a href=&#34;https://doi.org/10.1016/j.devcel.2018.07.022&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GATA/Heme Multi-omics Reveals a Trace Metal-dependent Cellular Differentiation Mechanism&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Developmental Cell&lt;/strong&gt;&lt;/em&gt;. 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-cell Multi-omics Integration and Modeling</title>
+      <link>https://yezhengSTAT.github.io/project/multi-omics/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/multi-omics/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;The single-cell multi-omics integration focuses on collective modeling of three-dimensional chromatin interaction (scHi-C) data and transcriptomics and proteomics data (scRNA-seq and CITE-seq).&lt;/p&gt;
+&lt;p&gt;To project the 3D genomics to the reference panel such as the embeddings of scRNA-seq, we developed single-cell gene associating domain (scGAD) scores as a dimension reduction and exploratory analysis tool for scHi-C data. It leverages the unprecedented resolution of single-cell high-throughput chromatin conformation (scHi-C) data and integrate it with other single-cell data modalities. scGAD enables summarization at the gene unit while accounting for inherent gene-level genomic biases. Low-dimensional projections with scGAD capture clustering of cells based on their 3D structures. Significant chromatin interactions within and between cell types can be identified with scGAD. We further show that scGAD facilitates the integration of scHi-C data with other single-cell data modalities by enabling its projection onto reference low-dimensional embeddings. This multi-modal data integration provides an automated and refined cell-type annotation for scHi-C data. Besides, we also developed a normalization method, ADTnorm, and accompanying R package and Python tool to integrate cell surface protein measure across studies while removing the batch effect.&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Seong-Hwan J, Tian Y, Florian M, Gottardo R. &lt;a href=&#34;https://doi.org/10.1101/2022.04.29.489989&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robust Normalization and Integration of Single-cell Protein Expression across CITE-seq Datasets&lt;/a&gt;. BioRxiv. 2022.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shen S, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Keleş S+. &lt;a href=&#34;https://academic.oup.com/bioinformatics/article-abstract/38/14/3642/6598798?redirectedFrom=fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scGAD: single-cell gene associating domain scores for exploratory analysis of scHi-C data&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Bioinformatics&lt;/strong&gt;&lt;/em&gt;. 2022.  (+: co- corresponding authors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wu S, Furlan S, Mihalas A, Kaya-Okur H, Feroze H, Emerson S, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Carson K, Cimino P, Keene C, Holland E, Sarthy J, Gottardo R, Ahmad K, Henikoff S, Patel A. [Single-cell CUTTag analysis of chromatin modifications in differentiation and tumor progression](https://doi. org/10.1038/s41587-021-00865-z). &lt;em&gt;&lt;strong&gt;Nature Biotechnology&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Repetitive Regions of Genomes</title>
+      <link>https://yezhengSTAT.github.io/project/repetitiveregion/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/repetitiveregion/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;Repetitive DNA is nucleotide sequences that appear multiple times across genome which are abundant in a broad range of species, from bacteria to mammals and cover nearly half of the human genome. The role of repetitive DNA in the genome has remained speculative for decades however several recent studies have demonstrated that repetitive DNA can be potentially a vital drive for stabilizing genome contact. For instance, short tandem repeats, whose expansion is the direct reason for more than 25 inherited human disorders such as fragile X syndrome and Huntington, has proven to co-localize with chromatin domain boundaries (Sun et al. 2018. Cell).&lt;/p&gt;
+&lt;p&gt;My interest in the repetitive DNA began when I was participating in the ENCODE III project where I developed Permseq (Xin et al. 2015. &lt;em&gt;PLOS Computational Biology&lt;/em&gt;), an R package to mapping protein-DNA interactions in highly repetitive regions of the genomes with prior-enhanced read mapping. I have found striking false positives and false negatives if reads originated from the repetitive regions are discarded due to alignment uncertainty.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_8e4b01676803eec8fb6db4b851397643.webp 400w,
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_0ad11bb82a38fddfdf044fc7e7320235.webp 760w,
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_8e4b01676803eec8fb6db4b851397643.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Later on, I developed mHi-C (Zheng et al. 2020. &lt;em&gt;Nature Methods&lt;/em&gt;) to address similar multi-mapping reads issue in 3D nucleosome studies yielding significant improvement in sequencing depth and refined inference of genome structure and functions.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_db219048fe19c9d58d3f5562941659c4.webp 400w,
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_9d9303c7cbf8ad20053abec0ead8f782.webp 760w,
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_db219048fe19c9d58d3f5562941659c4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;416&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Cheng J, Clayton J, Acemel R, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Taylor R, Keleş S, Harley J, Quail E, Gómez-Skarmeta J and Ulgiati D. &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fimmu.2022.901747/full&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regulatory architecture of the RCA gene cluster captures an intragenic TAD boundary and enhancer elements in B cells&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Frontiers in Immunology, section B Cell Biology&lt;/strong&gt;&lt;/em&gt;. 2022.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, et al. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2493-4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Expanded Encyclopedias of DNA Elements in the Human and Mouse Genomes&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, Snyder, M.P., Gingeras, T.R., Moore, J.E., Weng, Z., Gerstein, M.B., Ren, B., Hardison, R.C., Stamatoyannopoulos, J.A., Graveley, B.R., Feingold, E.A. and Pazin, M.J. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2449-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perspectives on ENCODE&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Ay F, Keleş S. &lt;a href=&#34;https://elifesciences.org/articles/38070&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative modeling of multi-mapping reads with mHi-C advances analysis of Hi-C studies&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;eLife&lt;/strong&gt;&lt;/em&gt;. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zeng X, Li B, Welch R, Rojo C, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Dewey CN, Keleş S. &lt;a href=&#34;https://doi.org/10.1371/journal.pcbi.1004491.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perm-seq: Mapping Protein-DNA Interactions in Segmental Duplication and Highly Repetitive Regions of Genomes with Prior-enhanced Read Mapping&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;PLoS Computational Biology&lt;/strong&gt;&lt;/em&gt;. 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

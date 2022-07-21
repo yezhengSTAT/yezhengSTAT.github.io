@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SRA | </title>
+    <link>https://yezhengSTAT.github.io/tag/sra/</link>
+      <atom:link href="https://yezhengSTAT.github.io/tag/sra/index.xml" rel="self" type="application/rss+xml" />
+    <description>SRA</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 18 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title>SRA</title>
+      <link>https://yezhengSTAT.github.io/tag/sra/</link>
+    </image>
+    
+    <item>
+      <title>Download data from GEO</title>
+      <link>https://yezhengSTAT.github.io/post/sra/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/sra/</guid>
+      <description>&lt;p&gt;Previously (a year ago), NCBI still offers ftp downloading (wget ftp path) or simple-clicking downloading data on GEO (from supplementary section). However, right now they only support batch command line downloading using their tool called &lt;a href=&#34;https://github.com/ncbi/sra-tools/wiki/Building-and-Installing-from-Source&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sratools&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;0.SRAtools Installation: ncbi-vdb -&amp;gt; ngs -&amp;gt; sratools. Detailed installation guidelines at here. On our server (ramiz01-05) or on CHTCcondor, we need to install it locally, therefore here are my commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir ncbi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ncbi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/ncbi/sra-tools.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/ncbi/ngs.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/ncbi/ncbi-vdb.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ncbi-vdb
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./configure --prefix&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;path/to/ncbi/sra-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ../ngs
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./configure --prefix&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;path/to/ncbi/sra-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## I didn&amp;#39;t have any issue with ngs installation on our server ramiz01-05 but the above command fails on the HTCondor. According to the error, I configure the subunit tools manually and respectively:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -C ngs-sdk
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -C ngs-java
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -C ngs-sdk install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -C ngs-java install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## *******************************&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ../sra-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./configure --prefix&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;path/to/ncbi/sra-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Besides, on chtc condor, their gcc version is not high enough to configure sra-tools, therefore, I locally installed gcc with the latest version with the help from this blog.&lt;/p&gt;
+&lt;p&gt;1.Usage:&lt;/p&gt;
+&lt;p&gt;To download the sra file: prefetch SRR**
+To get the fastq file: fastq-dump [parameters] SRR**
+For example, in my case, I downloaded paired-ended Hi-C reads and save it in two fastq files (SRR5339829_1.fastq SRR5339829_2.fastq) each containing one end:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;$sraDir&lt;/span&gt;/bin/fastq-dump -F --split-files -O &lt;span class=&#34;nv&#34;&gt;$outPath&lt;/span&gt; SRR5339829
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2.Warning message:
+It seems that sratools is still under development and also due to the network issue you may get some warning message like&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-22T20:47:35 fastq-dump.2.9.1 sys: timeout exhausted &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; reading the file within network system module - mbedtls_ssl_read returned -76 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; NET - Reading information from the socket failed &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Stay calm and ignore such warnings! :) Seriously! As long as in the end, you get a mini report like the following, the downloading procedure is successful:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Read &lt;span class=&#34;m&#34;&gt;256975996&lt;/span&gt; spots &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; SRR5339835
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Written &lt;span class=&#34;m&#34;&gt;256975996&lt;/span&gt; spots &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; SRR5339835
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3.Network failure on HTCondor:
+After successfully install the sra-tool locally, no matter which command I try, it will always give the same error information:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: connection failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; opening file within cryptographic module - mbedtls_ssl_handshake returned -9984 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; X509 - Certificate verification failed, e.g. CRL, CA or signature check failed &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: mbedtls_ssl_get_verify_result returned 0x8 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;  !! The certificate is not correctly signed by the trusted CA  &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: connection failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; opening file within cryptographic module - ktls_handshake failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; accessing &lt;span class=&#34;s1&#34;&gt;&amp;#39;128.105.244.82&amp;#39;&lt;/span&gt; from &lt;span class=&#34;s1&#34;&gt;&amp;#39;128.105.244.177&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: connection failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; opening file within cryptographic module - mbedtls_ssl_handshake returned -31104 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; SSL - Processing of the ServerHello handshake message failed &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: connection failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; opening file within cryptographic module - ktls_handshake failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; accessing &lt;span class=&#34;s1&#34;&gt;&amp;#39;128.105.244.82&amp;#39;&lt;/span&gt; from &lt;span class=&#34;s1&#34;&gt;&amp;#39;128.105.244.177&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It is due to the network proxy and the solution recommended by Christina from chtc condor is that:&lt;/p&gt;
+&lt;p&gt;Adding the following to a job’s executable (the shell script) fixed the sra download error:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;unset&lt;/span&gt; http_proxy
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;unset&lt;/span&gt; HTTPS_PROXY
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;unset&lt;/span&gt; FTP_PROXY
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$_CONDOR_SCRATCH_DIR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

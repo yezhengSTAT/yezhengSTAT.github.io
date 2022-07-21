@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SNPs | </title>
+    <link>https://yezhengSTAT.github.io/tag/snps/</link>
+      <atom:link href="https://yezhengSTAT.github.io/tag/snps/index.xml" rel="self" type="application/rss+xml" />
+    <description>SNPs</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title>SNPs</title>
+      <link>https://yezhengSTAT.github.io/tag/snps/</link>
+    </image>
+    
+    <item>
+      <title>Three-dimensional genome architecture and disease variants</title>
+      <link>https://yezhengSTAT.github.io/post/3dreview/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/3dreview/</guid>
+      <description>&lt;p&gt;I feel lucky to run into &lt;a href=&#34;https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-017-0477-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Three-dimensional genome architecture and emerging technologies: looping in disease&lt;/a&gt; on Twitter. This review comprehensively and logically discussed the hierarchical genome architecture and summarized existing three-dimensional genome structure techniques: &amp;ldquo;C&amp;rdquo;-related, CHiC, Capture-HiC, DNase-HiC, ChIA-PET/HiChIP/PLAC-seq and CRISPR-based methods, with a gigantic table, reviewing the advantages/limits/relevant examples/computational pipeline.
+More importantly, it is such a resourceful paper that summarized how researchers associated all kinds of 3D techniques with disease-related SNPs. This gave us a clear view of what kind of 3D datasets publically available and to what extent have scientists come up with statistical models to link SNPs from non-coding regions with distal genes. I listed a few of them as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;3D techniques, CHi-C/p-CHi-C/HiCap, provides high-resolution cis-interactome data at clinically relevant loci such as regulatory elements, single nucleotide polymorphisms (SNPs) from GWASs, TAD boundaries or promoters. Important tools for connecting GWAS outcomes to target genes (many loci to all loci). (Namely, they can extract &amp;ldquo;promoter - other regions&amp;rdquo; interactions.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pipeline to analyze them: &lt;a href=&#34;https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0992-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CHiCAGO: robust detection of DNA looping interactions in Capture Hi-C data.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Capture-Hi-C: A detailed catalogue of 22,000 promoter interactions was generated using promoter CHi-C for two blood cell types: the lymphoblast line GM12878 and CD34+ hematopoietic progenitor cells. 3D interaction data indicated that SNPs associated with autoimmune and other hematological disorders were significantly enriched at interacting distal regulatory sites of targeted promoters. &lt;a href=&#34;https://www.nature.com/articles/ng.3286&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mapping long-range promoter contacts in human cells with high-resolution capture Hi-C.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CHi-C was also applied to study autoimmune-disease associated SNPs in GM12878 B-cell and Jurkat T-cell lines. These findings demonstrated that different autoimmune-associated variants interact with common gene promoters. They also contradict the long-held assumption that disease-causing genes and their associated variants should be in close linkage disequilibrium (LD) to impart an effect. &lt;a href=&#34;https://www.nature.com/articles/ncomms10069&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capture Hi-C reveals novel candidate genes and complex long-range interactions with related autoimmune risk loci.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;3D techniques, ChIA-PET/HiChIP/PLAC-seq, study protein-specific chromatin interactome. Important in identifying chromatin architectural roles for proteins (many loci to all loci). (Namely, they study the &amp;ldquo;protein binding sites - other regions&amp;rdquo; interactions. Protein binding sites are similarly studied by ChIP-seq.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;HiChIP identified genome-wide cohesin-mediated looping interactions: &lt;a href=&#34;https://www.nature.com/articles/nmeth.3999&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HiChIP: efficient and sensitive analysis of protein-directed genome architecture.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PLAC-seq targets H3K4me3 histone marks to generate improved maps of promoter-enhancer interactions in mESCs: &lt;a href=&#34;https://www.nature.com/articles/cr2016137&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mapping of long-range chromatin interactions by proximity ligation-assisted ChIP-seq.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Hi-C maps for cortical and germinal brain regions identified increased promoter-enhancer interactions compared with other tissues. The authors found novel human-gained enhancers showed significant overlap with lineage-specific lncRNAs and 108 significant schizophrenia-associated variants. (I feel it paper offers excellent data for a more advanced statistical model to link Hi-C with schizophrenia GWAS study!): &lt;a href=&#34;https://www.nature.com/articles/nature19847&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chromosome conformation elucidates regulatory relationships in developing human brain.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integrating study of 21 different cell and tissues types of Hi-C maps determines frequently interacting enhancer regions (FIRE) which usually associated with super-enhancers, typical enhancers etc (basically they are biologically functionally active regions).  FIREs are tissue-specific, distinct disease-associated FIREs further strengthens the association: Alzheimer&amp;rsquo;s SNPs were found in brain-specific FIREs and SNPs for acute lymphoblastic leukemia were found in GM12878-specific super-FIREs. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211124716314814&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Compendium of Chromatin Contact Maps Reveals Spatially Active Regions in the Human Genome.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A MODEL leveraged existing Hi-C data to determine that variants at regulatory elements outside of LD blocks interacted with genes or their enhancers harboring linked SNPs to impact gene expression and disease risk: &lt;a href=&#34;https://www.nature.com/articles/ng.3674&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modeling disease risk through analysis of physical interactions between genetic variants within chromatin regulatory circuitry.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another study generates extensive catalogues of distal genomic regions that interact with promoters, or promoter-interacting regions (PIRs), in 17 primary hematopoietic cell types, linking 2500 novel SNPs to putative disease-associated genes related to blood and autoimmune disorders. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0092867416313228?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lineage-Specific Genome Architecture Links Enhancers and Non-coding Disease Variants to Target Gene Promoters.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is not in the review paper but certainly offers good Hi-C and other DNA sequencing datasets for Cardiac Myocytes: &lt;a href=&#34;https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.117.029430&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;High Resolution Mapping of Chromatin Conformation in Cardiac Myocytes Reveals Structural Remodeling of the Epigenome in Heart Failure.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Collectively, this review paper is really a good starting point for establishing thoughts of modeling how distal non-coding regulatory variants impact gene using 3D technologies.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

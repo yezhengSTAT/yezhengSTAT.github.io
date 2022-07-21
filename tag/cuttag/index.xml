@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CUT&amp;Tag | </title>
+    <link>https://yezhengSTAT.github.io/tag/cuttag/</link>
+      <atom:link href="https://yezhengSTAT.github.io/tag/cuttag/index.xml" rel="self" type="application/rss+xml" />
+    <description>CUT&amp;Tag</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title>CUT&amp;Tag</title>
+      <link>https://yezhengSTAT.github.io/tag/cuttag/</link>
+    </image>
+    
+    <item>
+      <title>CUT&amp;Tag Data Processing and Analysis Tutorial</title>
+      <link>https://yezhengSTAT.github.io/post/cuttag/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/cuttag/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/view/cut-amp-tag-data-processing-and-analysis-tutorial-e6nvw93x7gmk/v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CUT&amp;amp;Tag Data Processing and Analysis Tutorial on Protocols.io&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

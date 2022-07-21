@@ -1,0 +1,1610 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Ye Zheng, Ph.D." />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Study the three-dimensional chromatin interactions and long-range gene regulation" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://yezhengSTAT.github.io/project/3dgenome/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#707070" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.9aeea823e57bd46b2474b6d8edbba3ce.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://yezhengSTAT.github.io/project/3dgenome/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+    <meta property="twitter:site" content="@yezhengSTAT" />
+    <meta property="twitter:creator" content="@yezhengSTAT" />
+  
+  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="https://yezhengSTAT.github.io/project/3dgenome/" />
+  <meta property="og:title" content="3D Chromatin Organization | " />
+  <meta property="og:description" content="Study the three-dimensional chromatin interactions and long-range gene regulation" /><meta property="og:image" content="https://yezhengSTAT.github.io/project/3dgenome/featured.png" />
+    <meta property="twitter:image" content="https://yezhengSTAT.github.io/project/3dgenome/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-07-31T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-07-31T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://yezhengSTAT.github.io/project/3dgenome/"
+  },
+  "headline": "3D Chromatin Organization",
+  
+  "image": [
+    "https://yezhengSTAT.github.io/project/3dgenome/featured.png"
+  ],
+  
+  "datePublished": "2022-07-31T00:00:00Z",
+  "dateModified": "2022-07-31T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Ye Zheng, Ph.D."
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Study the three-dimensional chromatin interactions and long-range gene regulation"
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>3D Chromatin Organization | </title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="8f1622ecd841faa2ad2e609926751633" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+              
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="https://pages.stat.wisc.edu/~yezheng/CV_YeZheng_2022.pdf" target="_blank" rel="noopener"><span>CV</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#software"><span>Software</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#teaching"><span>Teaching&Mentoring</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#activity"><span>Professional Activity</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Blogs</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>3D Chromatin Organization</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 31, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 592px; max-height: 386px;">
+  <div style="position: relative">
+    <img src="/project/3dgenome/featured_hu4c5893c39aaf4d6af7556280ba094c8f_242358_720x2500_fit_q100_h2_lanczos_3.webp" width="592" height="386" alt="" class="featured-image">
+    <span class="article-header-caption">Photo by rawpixel on Unsplash</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="project-introduction">Project Introduction</h2>
+<p>The role that chromatin architecture plays in the mechanism of gene regulation has undergone a dramatic transformation with the emergence of Hi-C and other 3C-derived high throughput technology for interrogating the three-dimensional configurations of the genome and identifying regions that are in close spatial proximity in a genome-wide fashion. As the sequencing depth grows, the resolution to investigate the 3D chromatin interactions goes from Megabase scale to kilobase or even hundred-base genomic scale. Furthermore, with the development of other &ldquo;C&rdquo;-related techniques, for instance, HiChIP, DNaseHiC, Capture Hi-C, etc., we will be able to investigate all kinds of genomic interactions at ultra-high resolution across the whole genome from the anchor regions that can be associated with clinically relevant loci such as regulatory elements, single nucleotide polymorphisms (SNPs) from GWAS studies, chromatin domain boundaries or promoters. Analysis of 3D genome data will resolve many fundamental and long-standing questions involving the mechanism of gene regulation from distal non-coding regulatory variants, linking novel SNPs to putative disease-associated genes related to all sorts of disorders, the connection between chromatin domain structure variation and cancer or other genetic diseases.</p>
+<p>Such technological advances in 3D genomics lead to great needs for new statistical models and computational tools to harness the embedding conformation information present in Hi-C data. To achieve decent interaction resolution, namely, how specific the region can be if we zoom in the genome to the largest extent, one study usually has billions of reads for each biological replicate. Hence, it poses a tough challenge on the model which should be theoretically sound and practically applicable and implementable within a short time. Realizing the demand in the field, I have developed a few fundamental methods, mHi-C, FreeHi-C, FreeHi-C SpikeIn, BandNorm and scVI-3D, with the corresponding software packages or pipelines to address many basic needs in dealing with Hi-C data.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="te" srcset="
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_472aeb3f2eedb0e149c66981559d59b7.webp 400w,
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_9c5860f2399ff831e1ad93ebe6075cad.webp 760w,
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_472aeb3f2eedb0e149c66981559d59b7.webp"
+               width="747"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>Due to the importance of sequencing depth in Hi-C analysis, I developed mHi-C (Zheng et al. 2019 <em>eLife</em>) to utilize multi-mapping reads that are discarded in Hi-C benchmark analysis pipeline. Multi-mapping reads are reads originated from repetitive regions of the genome hence they can be aligned to multiple positions. The ambiguity of multi-reads alignment renders them to be deleted wasting ~20% of the sequencing depth which can be translated into hundreds of millions of reads for one biological replicate. Through a hierarchical model that probabilistically allocates Hi-C multi-reads to their most likely genomic origins by utilizing specific characteristics of the paired-end reads of the Hi-C assay, the chromatin domain boundaries are refined and we can also detect novel promoter-enhancer interactions that involve disease-associated genes. Moreover, mHi-C, itself is programmed into a python pipeline with C acceleration, can process from raw data and output valid genomic interactions. Another urgent demand from both experimental labs and computational groups is a tool to fast simulate Hi-C contact matrices to work as biological replicates to improve the detection power or employed as a test of models under development. Also, the tool should be easy to use for researchers from all kinds of background. Therefore, I have developed FreeHiC (Zheng et al. 2020. <strong>Nature Methods</strong>) and FreeHi-C SpikeIn (Zheng et al. 2021. <strong>Methods</strong>)  which empirically learns the interacting fragment behaviors,  sequence characters, according to the Hi-C experimental protocol procedures. Sequently, with the user-controlled level of noise being inserted into the simulation process,  a similar Hi-C interaction matrix is generated.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="te" srcset="
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_a581e4855ed8ab71af002cca53f70826.webp 400w,
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_99ae51a052a135af039d1fbd809b937b.webp 760w,
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_a581e4855ed8ab71af002cca53f70826.webp"
+               width="760"
+               height="447"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>Recently, single-cell high-throughput chromatin conformation capture methodologies (scHi-C) enable profiling long-range genomic interactions. However, data from these technologies are prone to technical noise and biases that hinder downstream analysis. Collaborating with Keles Lab, we developed a normalization approach, BandNorm, and a deep generative modeling framework, scVI-3D, to account for scHi-C specific biases. In benchmarking experiments, BandNorm yields leading performances in a time and memory efficient manner for cell-type separation, identification of interacting loci, and recovery of cell-type relationships, while scVI-3D exhibits advantages for rare cell types and under high sparsity scenarios. Application of BandNorm coupled with gene-associating domain analysis reveals scRNA-seq validated sub-cell type identification.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="te" srcset="
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_7d18f3aab3f3afbfe9e3da14b1ace5b5.webp 400w,
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_3e3ea8a5fead5556505e7f925f86bf02.webp 760w,
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_1200x1200_fit_q100_h2_lanczos_3.webp 1200w"
+               src="/project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_7d18f3aab3f3afbfe9e3da14b1ace5b5.webp"
+               width="760"
+               height="555"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="publication">Publication</h2>
+<ol>
+<li>
+<p><strong>Zheng Y+</strong>, Shen S+, Keleş S. <a href="https://doi.org/10.1101/2021.03.10.434870" target="_blank" rel="noopener">Normalization and De-noising of Single-cell Hi-C Data with BandNorm and scVI-3D</a>. bioRxiv. Under the second round of review by <em><strong>Genome Biology</strong></em>. 2022. (+: co-first authors)</p>
+</li>
+<li>
+<p>Cheng J, Clayton J, Acemel R, <strong>Zheng Y</strong>, Taylor R, Keleş S, Harley J, Quail E, Gómez-Skarmeta J and Ulgiati D. <a href="https://www.frontiersin.org/articles/10.3389/fimmu.2022.901747/full" target="_blank" rel="noopener">Regulatory architecture of the RCA gene cluster captures an intragenic TAD boundary and enhancer elements in B cells</a>. <em><strong>Frontiers in Immunology, section B Cell Biology</strong></em>. 2022.</p>
+</li>
+<li>
+<p><strong>Zheng Y</strong>, Zhou P, Keleş S. <a href="https://www.sciencedirect.com/science/article/abs/pii/S1046202320300852?via%3Dihub" target="_blank" rel="noopener">FreeHi-C Spike-in Simulations for Benchmarking Differential Chromatin Interaction Detection</a>. <em><strong>Methods</strong></em>. 2021.</p>
+</li>
+<li>
+<p>Huang K, Wu Y, Shin J, <strong>Zheng Y</strong>, Siahpirani A, Lin Y, Ni Z, Chen J, You J, Keleş S, Wang D, Roy S, Lu Q. <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009309" target="_blank" rel="noopener">Transcriptome-wide transmission disequilibrium analysis identifies novel risk genes for autism spectrum disorder</a>. <em><strong>PLOS Genetics</strong></em>. 2021.</p>
+</li>
+<li>
+<p><strong>Zheng Y</strong>, Keleş S. <a href="https://www.nature.com/articles/s41592-019-0624-3" target="_blank" rel="noopener">FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation</a>. <em><strong>Nature Methods</strong></em>. 2020.</p>
+</li>
+<li>
+<p>The ENCODE Project Consortium, et al. <a href="https://doi.org/10.1038/s41586-020-2493-4" target="_blank" rel="noopener">Expanded Encyclopedias of DNA Elements in the Human and Mouse Genomes</a>. <em><strong>Nature</strong></em>. 2020 .</p>
+</li>
+<li>
+<p>The ENCODE Project Consortium, Snyder, M.P., Gingeras, T.R., Moore, J.E., Weng, Z., Gerstein, M.B., Ren, B., Hardison, R.C., Stamatoyannopoulos, J.A., Graveley, B.R., Feingold, E.A. and Pazin, M.J. <a href="https://doi.org/10.1038/s41586-020-2449-8" target="_blank" rel="noopener">Perspectives on ENCODE</a>. <em><strong>Nature</strong></em>. 2020.</p>
+</li>
+<li>
+<p><strong>Zheng Y</strong>, Ay F, Keleş S. <a href="https://elifesciences.org/articles/38070" target="_blank" rel="noopener">Generative modeling of multi-mapping reads with mHi-C advances analysis of Hi-C studies</a>. <em><strong>eLife</strong></em>. 2019.</p>
+</li>
+</ol>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/3d-genome/">3D-genome</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://yezhengSTAT.github.io/project/3dgenome/&amp;text=3D%20Chromatin%20Organization" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://yezhengSTAT.github.io/project/3dgenome/&amp;t=3D%20Chromatin%20Organization" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=3D%20Chromatin%20Organization&amp;body=https://yezhengSTAT.github.io/project/3dgenome/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://yezhengSTAT.github.io/project/3dgenome/&amp;title=3D%20Chromatin%20Organization" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=3D%20Chromatin%20Organization%20https://yezhengSTAT.github.io/project/3dgenome/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://yezhengSTAT.github.io/project/3dgenome/&amp;title=3D%20Chromatin%20Organization" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://yezhengSTAT.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hued0274b592f478cb9c941f5cf33a457b_5784633_270x270_fill_q100_lanczos_center.jpg" alt="Ye Zheng, Ph.D."></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://yezhengSTAT.github.io/">Ye Zheng, Ph.D.</a></h5>
+      <h6 class="card-subtitle">Postdoctoral Research Fellow</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.stat.wisc.edu/~yezheng/CV_YeZheng_2022.pdf" target="_blank" rel="noopener">
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=8VAZHgQAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/yezhengSTAT" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.protocols.io/view/cut-amp-tag-data-processing-and-analysis-tutorial-e6nvw93x7gmk/v1" target="_blank" rel="noopener">
+        <i class="ai ai-protocols"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/yezhengstat" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/ye-zheng-1a167782/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 Ye Zheng. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Normalization | </title>
+    <link>https://yezhengSTAT.github.io/tag/normalization/</link>
+      <atom:link href="https://yezhengSTAT.github.io/tag/normalization/index.xml" rel="self" type="application/rss+xml" />
+    <description>Normalization</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title>Normalization</title>
+      <link>https://yezhengSTAT.github.io/tag/normalization/</link>
+    </image>
+    
+    <item>
+      <title>Normalization and De-noising of Single-cell Hi-C Data with BandNorm and scVI-3D</title>
+      <link>https://yezhengSTAT.github.io/publication/bandnorm/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/bandnorm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

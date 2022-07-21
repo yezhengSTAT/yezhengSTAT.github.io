@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>multi-omics | </title>
+    <link>https://yezhengSTAT.github.io/tag/multi-omics/</link>
+      <atom:link href="https://yezhengSTAT.github.io/tag/multi-omics/index.xml" rel="self" type="application/rss+xml" />
+    <description>multi-omics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title>multi-omics</title>
+      <link>https://yezhengSTAT.github.io/tag/multi-omics/</link>
+    </image>
+    
+    <item>
+      <title>Single-cell Multi-omics Integration and Modeling</title>
+      <link>https://yezhengSTAT.github.io/project/multi-omics/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/multi-omics/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;The single-cell multi-omics integration focuses on collective modeling of three-dimensional chromatin interaction (scHi-C) data and transcriptomics and proteomics data (scRNA-seq and CITE-seq).&lt;/p&gt;
+&lt;p&gt;To project the 3D genomics to the reference panel such as the embeddings of scRNA-seq, we developed single-cell gene associating domain (scGAD) scores as a dimension reduction and exploratory analysis tool for scHi-C data. It leverages the unprecedented resolution of single-cell high-throughput chromatin conformation (scHi-C) data and integrate it with other single-cell data modalities. scGAD enables summarization at the gene unit while accounting for inherent gene-level genomic biases. Low-dimensional projections with scGAD capture clustering of cells based on their 3D structures. Significant chromatin interactions within and between cell types can be identified with scGAD. We further show that scGAD facilitates the integration of scHi-C data with other single-cell data modalities by enabling its projection onto reference low-dimensional embeddings. This multi-modal data integration provides an automated and refined cell-type annotation for scHi-C data. Besides, we also developed a normalization method, ADTnorm, and accompanying R package and Python tool to integrate cell surface protein measure across studies while removing the batch effect.&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Seong-Hwan J, Tian Y, Florian M, Gottardo R. &lt;a href=&#34;https://doi.org/10.1101/2022.04.29.489989&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robust Normalization and Integration of Single-cell Protein Expression across CITE-seq Datasets&lt;/a&gt;. BioRxiv. 2022.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shen S, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Keleş S+. &lt;a href=&#34;https://academic.oup.com/bioinformatics/article-abstract/38/14/3642/6598798?redirectedFrom=fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scGAD: single-cell gene associating domain scores for exploratory analysis of scHi-C data&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Bioinformatics&lt;/strong&gt;&lt;/em&gt;. 2022.  (+: co- corresponding authors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wu S, Furlan S, Mihalas A, Kaya-Okur H, Feroze H, Emerson S, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Carson K, Cimino P, Keene C, Holland E, Sarthy J, Gottardo R, Ahmad K, Henikoff S, Patel A. [Single-cell CUTTag analysis of chromatin modifications in differentiation and tumor progression](https://doi. org/10.1038/s41587-021-00865-z). &lt;em&gt;&lt;strong&gt;Nature Biotechnology&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

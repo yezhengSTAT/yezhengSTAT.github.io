@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_olds | </title>
+    <link>https://yezhengSTAT.github.io/publication_old/</link>
+      <atom:link href="https://yezhengSTAT.github.io/publication_old/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_olds</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title>Publication_olds</title>
+      <link>https://yezhengSTAT.github.io/publication_old/</link>
+    </image>
+    
+    <item>
+      <title>FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation</title>
+      <link>https://yezhengSTAT.github.io/publication_old/freehic/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/freehic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Modeling of Multi-mapping Reads with mHi-C Advances Analysis of High Throughput Genome-wide Conformation Capture Studies.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/mhic/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/mhic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GATA/Heme Multi-omics Reveals a Trace Metal-Dependent Cellular Differentiation Mechanism.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/gata/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/gata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-Nucleotide Human Disease Mutation Inactivates a Blood-Regenerative Enhancer.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/ets/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/ets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TreeHiC: Hierarchical Testing for Differential Chromatin Interactions.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/treehic/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/treehic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perm-seq: mapping protein-DNA interactions in segmental duplication and highly repetitive regions of genomes with prior-enhanced read mapping.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/permseq/</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/permseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Bayesian Computation algorithms for estimating network model parameters.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/abc/</link>
+      <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/abc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://yezhengSTAT.github.io/publication_old/example/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
