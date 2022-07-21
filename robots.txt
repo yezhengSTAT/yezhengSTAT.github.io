@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://yezhengSTAT.github.io/sitemap.xml

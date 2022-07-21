@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | </title>
+    <link>https://yezhengSTAT.github.io/publication-type/2/</link>
+      <atom:link href="https://yezhengSTAT.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title>2</title>
+      <link>https://yezhengSTAT.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Generative Modeling of Multi-mapping Reads with mHi-C Advances Analysis of High Throughput Genome-wide Conformation Capture Studies.</title>
+      <link>https://yezhengSTAT.github.io/publication/mhic/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/mhic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GATA/Heme Multi-omics Reveals a Trace Metal-Dependent Cellular Differentiation Mechanism.</title>
+      <link>https://yezhengSTAT.github.io/publication/gata/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/gata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-Nucleotide Human Disease Mutation Inactivates a Blood-Regenerative Enhancer.</title>
+      <link>https://yezhengSTAT.github.io/publication/ets/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/ets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perm-seq: mapping protein-DNA interactions in segmental duplication and highly repetitive regions of genomes with prior-enhanced read mapping.</title>
+      <link>https://yezhengSTAT.github.io/publication/permseq/</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/permseq/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
