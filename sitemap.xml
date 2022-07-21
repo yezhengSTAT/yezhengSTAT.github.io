@@ -16,7 +16,7 @@
   <url>
     <loc>https://yezhengSTAT.github.io/project/3dgenome/</loc><lastmod>2022-07-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://yezhengSTAT.github.io/tag/3d-genome/</loc><lastmod>2022-07-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://yezhengSTAT.github.io/tag/3d-genomics/</loc><lastmod>2022-07-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://yezhengSTAT.github.io/tag/car-t-cell-therapy/</loc><lastmod>2022-07-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -58,7 +58,9 @@
   <url>
     <loc>https://yezhengSTAT.github.io/project/immunotherapy/</loc><lastmod>2022-07-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://yezhengSTAT.github.io/tag/multi-omics/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://yezhengSTAT.github.io/tag/immunology/</loc><lastmod>2022-07-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://yezhengSTAT.github.io/tag/integration/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://yezhengSTAT.github.io/project/multi-omics/</loc><lastmod>2022-07-22T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -85,8 +87,6 @@
     <loc></loc><lastmod>2022-07-21T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://yezhengSTAT.github.io/publication-type/2/</loc><lastmod>2022-07-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://yezhengSTAT.github.io/tag/3d-genomics/</loc><lastmod>2022-07-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><lastmod>2022-07-15T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -180,9 +180,13 @@
   <url>
     <loc>https://yezhengSTAT.github.io/project/repetitiveregion/</loc><lastmod>2019-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://yezhengSTAT.github.io/tag/repetitive-region/</loc><lastmod>2019-10-26T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://yezhengSTAT.github.io/slides/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://yezhengSTAT.github.io/slides/example/</loc><lastmod>2019-02-05T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://yezhengSTAT.github.io/tag/3d-genome/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -191,8 +195,6 @@
     <loc>https://yezhengSTAT.github.io/publication/mhic/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://yezhengSTAT.github.io/publication_old/mhic/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://yezhengSTAT.github.io/tag/repetitive-region/</loc><lastmod>2019-01-31T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://yezhengSTAT.github.io/tag/qtl/</loc><lastmod>2019-01-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>

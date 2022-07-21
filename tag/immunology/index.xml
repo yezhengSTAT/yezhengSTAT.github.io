@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Immunology | </title>
+    <link>https://yezhengSTAT.github.io/tag/immunology/</link>
+      <atom:link href="https://yezhengSTAT.github.io/tag/immunology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Immunology</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title>Immunology</title>
+      <link>https://yezhengSTAT.github.io/tag/immunology/</link>
+    </image>
+    
+    <item>
+      <title>CAR-T cell therapy genomic profiling and clinical association study.</title>
+      <link>https://yezhengSTAT.github.io/project/immunotherapy/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/immunotherapy/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;Motivated by computational needs and challenges in infectious diseases and immunotherapy, I have been actively working on the development of statistical methods and tools for analyzing single-cell multi-omics data in addressing immunological and immunotherapeutic problems. My postdoctoral training at the Fred Hutchinson Cancer Center enables me to participate in immunological studies and interact with clinicians directly. This significantly allows me to gain insights into high-throughput assays and high-dimensional cellular analysis, specially designed to address immune cell heterogeneity. Through close collaboration with the &lt;a href=&#34;https://research.fredhutch.org/turtle/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turtle Lab&lt;/a&gt;, I have constructed a specific computational framework for processing and analyzing the CAR-T cell therapy CITE-seq data. Additionally, with the Turtle Lab and the &lt;a href=&#34;https://research.fredhutch.org/henikoff/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henikoff Lab&lt;/a&gt;, we have also profiled the epigenomic landscape (using CUT&amp;amp;RUN, scCUT&amp;amp;Tag data) of the CAR-T cells of both patients and healthy donors to investigate the cell type origin after CAR-T manufacturing stimulation. Collectively, we can reveal the genomic marker association with the CAR-T cell therapy clinical efficacy and toxicity from both transcriptomics and epigenomics perspectives.&lt;/p&gt;
+&lt;p&gt;I have built a repertoire of collaborative research experience with statisticians, computational biologists, molecular biologists, and immunologists worldwide to address immunological and immunotherapeutic challenges.&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Fiorenza S+, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Sarthy J, Sheih AS, Wu Q, Hirayama AV, Kimble EL, Kirchmeier D, Gottardo R, Henikoff S, Turtle CJ. High-throughput, high sensitivity mapping of human T cell and CAR-T cell epigenomic landscapes underscores the role of H3K27me3 in subset differences and therapeutic outcomes. Manuscript in preparation. (+ Co-first author)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Germanos AA, Arora S, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Goddard ET, Coleman IM, Ku AT, Wilkinson S, Amezquita RA, Zager M, Long A, Yang YC, Bielas J, Gottardo R, Ghajar C, Nelson P, Sowalsky A, Setty M, Hsieh A. &lt;a href=&#34;https://doi.org/10.1101/2022.03.02.482711&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Defining cellular population dynamics at single cell resolution during prostate cancer progression&lt;/a&gt;. BioRxiv. 2022. Under review for &lt;em&gt;&lt;strong&gt;eLife&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hirayama AV, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Dowling MR, Sheih A, Phi TD, Kirchmeier DR, Chucka AW, Gauthier J, Maloney DG, Gottardo R, Turtle CJ. &lt;a href=&#34;https://doi.org/10.1182/blood-2021-151571&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Long-Term Follow-up and Single-Cell Multiomics Characteristics of Infusion Products in Patients with Chronic Lymphocytic Leukemia Treated with CD19 CAR-T Cells&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Blood&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vitanza N, Biery M, Myers C, Ferguson E, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Girard E, Przystal J, Park G, Noll A, Pakiam F, Winter C, Morris S, Sarthy J, Cole B, Leary S, Crane C, Lieberman N, Mueller S, Nazarian J, Gottardo R, Brusniak M, Mhyre A, Olson J, &lt;a href=&#34;https://doi.org/10.1093/neuonc/noaa249&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimal therapeutic targeting by HDAC inhibition in biopsy-derived treatment-naïve diffuse midline glioma models.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;Neuro-Oncology&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Ahmad K, Henikoff K. &lt;a href=&#34;dx.doi.org/10.17504/protocols.io.bjk2kkye&#34;&gt;CUTTag Data Processing and Analysis Tutorial&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Protocols.io&lt;/strong&gt;&lt;/em&gt;. 2020. (15,266 views, 4,355 exports, and 194 questions)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Liao R+, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Liu X, Zhang Y, Seim G, Tanimura N, Wilson G, Hematti P, Coon J, Fan J, Xu J, Keleş S++ and Bresnick E++. &lt;a href=&#34;https://doi.org/10.1016/j.celrep.2020.107832&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discovering How Heme Controls Genome Function Through Heme-omics&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Cell Reports&lt;/strong&gt;&lt;/em&gt;. 2020. (+co-first authors,
+++co-corresponding authors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Soukup AA, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Mehta C, Liu P, Hofmann I, Zhou Y, Zhang J, Choi K, Johnson KD, Keles S, Bresnick EH. &lt;a href=&#34;https://www.jci.org/articles/view/122694&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Single-nucleotide human disease mutation inactivates a blood-regenerative GATA2 enhancer&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Journal of Clinical Investigation&lt;/strong&gt;&lt;/em&gt;. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tanimura N, Liao R, Wilson GM, Dent MR, Cao M, Burstyn JN, Hematti P, Liu X, Zhang Y, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Keleş S, Xu J, Coon J, Bresnick E. &lt;a href=&#34;https://doi.org/10.1016/j.devcel.2018.07.022&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GATA/Heme Multi-omics Reveals a Trace Metal-dependent Cellular Differentiation Mechanism&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Developmental Cell&lt;/strong&gt;&lt;/em&gt;. 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

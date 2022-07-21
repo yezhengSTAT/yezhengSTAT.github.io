@@ -5,12 +5,98 @@
     <link>https://yezhengSTAT.github.io/tag/repetitive-region/</link>
       <atom:link href="https://yezhengSTAT.github.io/tag/repetitive-region/index.xml" rel="self" type="application/rss+xml" />
     <description>Repetitive-Region</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 31 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
       <title>Repetitive-Region</title>
       <link>https://yezhengSTAT.github.io/tag/repetitive-region/</link>
     </image>
+    
+    <item>
+      <title>Repetitive Regions of Genomes</title>
+      <link>https://yezhengSTAT.github.io/project/repetitiveregion/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/repetitiveregion/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;Repetitive DNA is nucleotide sequences that appear multiple times across genome which are abundant in a broad range of species, from bacteria to mammals and cover nearly half of the human genome. The role of repetitive DNA in the genome has remained speculative for decades however several recent studies have demonstrated that repetitive DNA can be potentially a vital drive for stabilizing genome contact. For instance, short tandem repeats, whose expansion is the direct reason for more than 25 inherited human disorders such as fragile X syndrome and Huntington, has proven to co-localize with chromatin domain boundaries (Sun et al. 2018. Cell).&lt;/p&gt;
+&lt;p&gt;My interest in the repetitive DNA began when I was participating in the ENCODE III project where I developed Permseq (Xin et al. 2015. &lt;em&gt;PLOS Computational Biology&lt;/em&gt;), an R package to mapping protein-DNA interactions in highly repetitive regions of the genomes with prior-enhanced read mapping. I have found striking false positives and false negatives if reads originated from the repetitive regions are discarded due to alignment uncertainty.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_8e4b01676803eec8fb6db4b851397643.webp 400w,
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_0ad11bb82a38fddfdf044fc7e7320235.webp 760w,
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_8e4b01676803eec8fb6db4b851397643.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Later on, I developed mHi-C (Zheng et al. 2020. &lt;em&gt;Nature Methods&lt;/em&gt;) to address similar multi-mapping reads issue in 3D nucleosome studies yielding significant improvement in sequencing depth and refined inference of genome structure and functions.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_db219048fe19c9d58d3f5562941659c4.webp 400w,
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_9d9303c7cbf8ad20053abec0ead8f782.webp 760w,
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_db219048fe19c9d58d3f5562941659c4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;416&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Cheng J, Clayton J, Acemel R, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Taylor R, Keleş S, Harley J, Quail E, Gómez-Skarmeta J and Ulgiati D. &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fimmu.2022.901747/full&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regulatory architecture of the RCA gene cluster captures an intragenic TAD boundary and enhancer elements in B cells&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Frontiers in Immunology, section B Cell Biology&lt;/strong&gt;&lt;/em&gt;. 2022.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, et al. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2493-4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Expanded Encyclopedias of DNA Elements in the Human and Mouse Genomes&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, Snyder, M.P., Gingeras, T.R., Moore, J.E., Weng, Z., Gerstein, M.B., Ren, B., Hardison, R.C., Stamatoyannopoulos, J.A., Graveley, B.R., Feingold, E.A. and Pazin, M.J. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2449-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perspectives on ENCODE&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Ay F, Keleş S. &lt;a href=&#34;https://elifesciences.org/articles/38070&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative modeling of multi-mapping reads with mHi-C advances analysis of Hi-C studies&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;eLife&lt;/strong&gt;&lt;/em&gt;. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zeng X, Li B, Welch R, Rojo C, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Dewey CN, Keleş S. &lt;a href=&#34;https://doi.org/10.1371/journal.pcbi.1004491.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perm-seq: Mapping Protein-DNA Interactions in Segmental Duplication and Highly Repetitive Regions of Genomes with Prior-enhanced Read Mapping&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;PLoS Computational Biology&lt;/strong&gt;&lt;/em&gt;. 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Generative Modeling of Multi-mapping Reads with mHi-C Advances Analysis of High Throughput Genome-wide Conformation Capture Studies</title>
