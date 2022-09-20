@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://yezhengSTAT.github.io/</link>
+      <atom:link href="https://yezhengSTAT.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description></description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
+      <title></title>
+      <link>https://yezhengSTAT.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://yezhengSTAT.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3D Chromatin Organization</title>
+      <link>https://yezhengSTAT.github.io/project/3dgenome/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/3dgenome/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;The role that chromatin architecture plays in the mechanism of gene regulation has undergone a dramatic transformation with the emergence of Hi-C and other 3C-derived high throughput technology for interrogating the three-dimensional configurations of the genome and identifying regions that are in close spatial proximity in a genome-wide fashion. As the sequencing depth grows, the resolution to investigate the 3D chromatin interactions goes from Megabase scale to kilobase or even hundred-base genomic scale. Furthermore, with the development of other &amp;ldquo;C&amp;rdquo;-related techniques, for instance, HiChIP, DNaseHiC, Capture Hi-C, etc., we will be able to investigate all kinds of genomic interactions at ultra-high resolution across the whole genome from the anchor regions that can be associated with clinically relevant loci such as regulatory elements, single nucleotide polymorphisms (SNPs) from GWAS studies, chromatin domain boundaries or promoters. Analysis of 3D genome data will resolve many fundamental and long-standing questions involving the mechanism of gene regulation from distal non-coding regulatory variants, linking novel SNPs to putative disease-associated genes related to all sorts of disorders, the connection between chromatin domain structure variation and cancer or other genetic diseases.&lt;/p&gt;
+&lt;p&gt;Such technological advances in 3D genomics lead to great needs for new statistical models and computational tools to harness the embedding conformation information present in Hi-C data. To achieve decent interaction resolution, namely, how specific the region can be if we zoom in the genome to the largest extent, one study usually has billions of reads for each biological replicate. Hence, it poses a tough challenge on the model which should be theoretically sound and practically applicable and implementable within a short time. Realizing the demand in the field, I have developed a few fundamental methods, mHi-C, FreeHi-C, FreeHi-C SpikeIn, BandNorm and scVI-3D, with the corresponding software packages or pipelines to address many basic needs in dealing with Hi-C data.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_472aeb3f2eedb0e149c66981559d59b7.webp 400w,
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_9c5860f2399ff831e1ad93ebe6075cad.webp 760w,
+               /project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/3dgenome/multi-reads_hu95b880fb2c81768720415bef0200f400_1627683_472aeb3f2eedb0e149c66981559d59b7.webp&#34;
+               width=&#34;747&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Due to the importance of sequencing depth in Hi-C analysis, I developed mHi-C (Zheng et al. 2019 &lt;em&gt;eLife&lt;/em&gt;) to utilize multi-mapping reads that are discarded in Hi-C benchmark analysis pipeline. Multi-mapping reads are reads originated from repetitive regions of the genome hence they can be aligned to multiple positions. The ambiguity of multi-reads alignment renders them to be deleted wasting ~20% of the sequencing depth which can be translated into hundreds of millions of reads for one biological replicate. Through a hierarchical model that probabilistically allocates Hi-C multi-reads to their most likely genomic origins by utilizing specific characteristics of the paired-end reads of the Hi-C assay, the chromatin domain boundaries are refined and we can also detect novel promoter-enhancer interactions that involve disease-associated genes. Moreover, mHi-C, itself is programmed into a python pipeline with C acceleration, can process from raw data and output valid genomic interactions. Another urgent demand from both experimental labs and computational groups is a tool to fast simulate Hi-C contact matrices to work as biological replicates to improve the detection power or employed as a test of models under development. Also, the tool should be easy to use for researchers from all kinds of background. Therefore, I have developed FreeHiC (Zheng et al. 2020. &lt;strong&gt;Nature Methods&lt;/strong&gt;) and FreeHi-C SpikeIn (Zheng et al. 2021. &lt;strong&gt;Methods&lt;/strong&gt;)  which empirically learns the interacting fragment behaviors,  sequence characters, according to the Hi-C experimental protocol procedures. Sequently, with the user-controlled level of noise being inserted into the simulation process,  a similar Hi-C interaction matrix is generated.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_a581e4855ed8ab71af002cca53f70826.webp 400w,
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_99ae51a052a135af039d1fbd809b937b.webp 760w,
+               /project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/3dgenome/proEnh_huef65e6b39926a46dde47da1501849d32_408863_a581e4855ed8ab71af002cca53f70826.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;447&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Recently, single-cell high-throughput chromatin conformation capture methodologies (scHi-C) enable profiling long-range genomic interactions. However, data from these technologies are prone to technical noise and biases that hinder downstream analysis. Collaborating with Keles Lab, we developed a normalization approach, BandNorm, and a deep generative modeling framework, scVI-3D, to account for scHi-C specific biases. In benchmarking experiments, BandNorm yields leading performances in a time and memory efficient manner for cell-type separation, identification of interacting loci, and recovery of cell-type relationships, while scVI-3D exhibits advantages for rare cell types and under high sparsity scenarios. Application of BandNorm coupled with gene-associating domain analysis reveals scRNA-seq validated sub-cell type identification.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_7d18f3aab3f3afbfe9e3da14b1ace5b5.webp 400w,
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_3e3ea8a5fead5556505e7f925f86bf02.webp 760w,
+               /project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/3dgenome/bandnorm_hu2a9a438c7ab07ad6356b77f110c7929a_1231035_7d18f3aab3f3afbfe9e3da14b1ace5b5.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;555&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y+&lt;/strong&gt;, Shen S+, Keleş S. &lt;a href=&#34;https://doi.org/10.1101/2021.03.10.434870&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Normalization and De-noising of Single-cell Hi-C Data with BandNorm and scVI-3D&lt;/a&gt;. bioRxiv. Under the second round of review by &lt;em&gt;&lt;strong&gt;Genome Biology&lt;/strong&gt;&lt;/em&gt;. 2022. (+: co-first authors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cheng J, Clayton J, Acemel R, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Taylor R, Keleş S, Harley J, Quail E, Gómez-Skarmeta J and Ulgiati D. &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fimmu.2022.901747/full&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regulatory architecture of the RCA gene cluster captures an intragenic TAD boundary and enhancer elements in B cells&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Frontiers in Immunology, section B Cell Biology&lt;/strong&gt;&lt;/em&gt;. 2022.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Zhou P, Keleş S. &lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/S1046202320300852?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeHi-C Spike-in Simulations for Benchmarking Differential Chromatin Interaction Detection&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Huang K, Wu Y, Shin J, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Siahpirani A, Lin Y, Ni Z, Chen J, You J, Keleş S, Wang D, Roy S, Lu Q. &lt;a href=&#34;https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009309&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Transcriptome-wide transmission disequilibrium analysis identifies novel risk genes for autism spectrum disorder&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;PLOS Genetics&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Keleş S. &lt;a href=&#34;https://www.nature.com/articles/s41592-019-0624-3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature Methods&lt;/strong&gt;&lt;/em&gt;. 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, et al. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2493-4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Expanded Encyclopedias of DNA Elements in the Human and Mouse Genomes&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, Snyder, M.P., Gingeras, T.R., Moore, J.E., Weng, Z., Gerstein, M.B., Ren, B., Hardison, R.C., Stamatoyannopoulos, J.A., Graveley, B.R., Feingold, E.A. and Pazin, M.J. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2449-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perspectives on ENCODE&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Ay F, Keleş S. &lt;a href=&#34;https://elifesciences.org/articles/38070&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative modeling of multi-mapping reads with mHi-C advances analysis of Hi-C studies&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;eLife&lt;/strong&gt;&lt;/em&gt;. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>High-throughput, high sensitivity mapping of human T cell and CAR-T cell epigenomic landscapes underscores the role of H3K27me3 in subset differences and therapeutic outcomes</title>
+      <link>https://yezhengSTAT.github.io/publication/cart_cutrun/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/cart_cutrun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CAR-T cell therapy genomic profiling and clinical association study.</title>
+      <link>https://yezhengSTAT.github.io/project/immunotherapy/</link>
+      <pubDate>Mon, 25 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/immunotherapy/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;Motivated by computational needs and challenges in infectious diseases and immunotherapy, I have been actively working on the development of statistical methods and tools for analyzing single-cell multi-omics data in addressing immunological and immunotherapeutic problems. My postdoctoral training at the Fred Hutchinson Cancer Center enables me to participate in immunological studies and interact with clinicians directly. This significantly allows me to gain insights into high-throughput assays and high-dimensional cellular analysis, specially designed to address immune cell heterogeneity. Through close collaboration with the &lt;a href=&#34;https://research.fredhutch.org/turtle/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Turtle Lab&lt;/a&gt;, I have constructed a specific computational framework for processing and analyzing the CAR-T cell therapy CITE-seq data. Additionally, with the Turtle Lab and the &lt;a href=&#34;https://research.fredhutch.org/henikoff/en.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Henikoff Lab&lt;/a&gt;, we have also profiled the epigenomic landscape (using CUT&amp;amp;RUN, scCUT&amp;amp;Tag data) of the CAR-T cells of both patients and healthy donors to investigate the cell type origin after CAR-T manufacturing stimulation. Collectively, we can reveal the genomic marker association with the CAR-T cell therapy clinical efficacy and toxicity from both transcriptomics and epigenomics perspectives.&lt;/p&gt;
+&lt;p&gt;I have built a repertoire of collaborative research experience with statisticians, computational biologists, molecular biologists, and immunologists worldwide to address immunological and immunotherapeutic challenges.&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Fiorenza S+, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Sarthy J, Sheih AS, Wu Q, Hirayama AV, Kimble EL, Kirchmeier D, Gottardo R, Henikoff S, Turtle CJ. High-throughput, high sensitivity mapping of human T cell and CAR-T cell epigenomic landscapes underscores the role of H3K27me3 in subset differences and therapeutic outcomes. Manuscript in preparation. (+ Co-first author)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Germanos AA, Arora S, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Goddard ET, Coleman IM, Ku AT, Wilkinson S, Amezquita RA, Zager M, Long A, Yang YC, Bielas J, Gottardo R, Ghajar C, Nelson P, Sowalsky A, Setty M, Hsieh A. &lt;a href=&#34;https://doi.org/10.1101/2022.03.02.482711&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Defining cellular population dynamics at single cell resolution during prostate cancer progression&lt;/a&gt;. BioRxiv. 2022. Under review for &lt;em&gt;&lt;strong&gt;eLife&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hirayama AV, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Dowling MR, Sheih A, Phi TD, Kirchmeier DR, Chucka AW, Gauthier J, Maloney DG, Gottardo R, Turtle CJ. &lt;a href=&#34;https://doi.org/10.1182/blood-2021-151571&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Long-Term Follow-up and Single-Cell Multiomics Characteristics of Infusion Products in Patients with Chronic Lymphocytic Leukemia Treated with CD19 CAR-T Cells&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Blood&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Vitanza N, Biery M, Myers C, Ferguson E, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Girard E, Przystal J, Park G, Noll A, Pakiam F, Winter C, Morris S, Sarthy J, Cole B, Leary S, Crane C, Lieberman N, Mueller S, Nazarian J, Gottardo R, Brusniak M, Mhyre A, Olson J, &lt;a href=&#34;https://doi.org/10.1093/neuonc/noaa249&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Optimal therapeutic targeting by HDAC inhibition in biopsy-derived treatment-naïve diffuse midline glioma models.&lt;/a&gt; &lt;em&gt;&lt;strong&gt;Neuro-Oncology&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Ahmad K, Henikoff K. &lt;a href=&#34;dx.doi.org/10.17504/protocols.io.bjk2kkye&#34;&gt;CUTTag Data Processing and Analysis Tutorial&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Protocols.io&lt;/strong&gt;&lt;/em&gt;. 2020. (15,266 views, 4,355 exports, and 194 questions)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Liao R+, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Liu X, Zhang Y, Seim G, Tanimura N, Wilson G, Hematti P, Coon J, Fan J, Xu J, Keleş S++ and Bresnick E++. &lt;a href=&#34;https://doi.org/10.1016/j.celrep.2020.107832&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Discovering How Heme Controls Genome Function Through Heme-omics&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Cell Reports&lt;/strong&gt;&lt;/em&gt;. 2020. (+co-first authors,
+++co-corresponding authors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Soukup AA, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Mehta C, Liu P, Hofmann I, Zhou Y, Zhang J, Choi K, Johnson KD, Keles S, Bresnick EH. &lt;a href=&#34;https://www.jci.org/articles/view/122694&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Single-nucleotide human disease mutation inactivates a blood-regenerative GATA2 enhancer&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Journal of Clinical Investigation&lt;/strong&gt;&lt;/em&gt;. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tanimura N, Liao R, Wilson GM, Dent MR, Cao M, Burstyn JN, Hematti P, Liu X, Zhang Y, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Keleş S, Xu J, Coon J, Bresnick E. &lt;a href=&#34;https://doi.org/10.1016/j.devcel.2018.07.022&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GATA/Heme Multi-omics Reveals a Trace Metal-dependent Cellular Differentiation Mechanism&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Developmental Cell&lt;/strong&gt;&lt;/em&gt;. 2018.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-cell Multi-omics Integration and Modeling</title>
+      <link>https://yezhengSTAT.github.io/project/multi-omics/</link>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/multi-omics/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;The single-cell multi-omics integration focuses on collective modeling of three-dimensional chromatin interaction (scHi-C) data and transcriptomics and proteomics data (scRNA-seq and CITE-seq).&lt;/p&gt;
+&lt;p&gt;To project the 3D genomics to the reference panel such as the embeddings of scRNA-seq, we developed single-cell gene associating domain (scGAD) scores as a dimension reduction and exploratory analysis tool for scHi-C data. It leverages the unprecedented resolution of single-cell high-throughput chromatin conformation (scHi-C) data and integrate it with other single-cell data modalities. scGAD enables summarization at the gene unit while accounting for inherent gene-level genomic biases. Low-dimensional projections with scGAD capture clustering of cells based on their 3D structures. Significant chromatin interactions within and between cell types can be identified with scGAD. We further show that scGAD facilitates the integration of scHi-C data with other single-cell data modalities by enabling its projection onto reference low-dimensional embeddings. This multi-modal data integration provides an automated and refined cell-type annotation for scHi-C data. Besides, we also developed a normalization method, ADTnorm, and accompanying R package and Python tool to integrate cell surface protein measure across studies while removing the batch effect.&lt;/p&gt;
+&lt;h2 id=&#34;publication&#34;&gt;Publication&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Seong-Hwan J, Tian Y, Florian M, Gottardo R. &lt;a href=&#34;https://doi.org/10.1101/2022.04.29.489989&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robust Normalization and Integration of Single-cell Protein Expression across CITE-seq Datasets&lt;/a&gt;. BioRxiv. 2022.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shen S, &lt;strong&gt;Zheng Y+&lt;/strong&gt;, Keleş S+. &lt;a href=&#34;https://academic.oup.com/bioinformatics/article-abstract/38/14/3642/6598798?redirectedFrom=fulltext&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;scGAD: single-cell gene associating domain scores for exploratory analysis of scHi-C data&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Bioinformatics&lt;/strong&gt;&lt;/em&gt;. 2022.  (+: co- corresponding authors)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wu S, Furlan S, Mihalas A, Kaya-Okur H, Feroze H, Emerson S, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Carson K, Cimino P, Keene C, Holland E, Sarthy J, Gottardo R, Ahmad K, Henikoff S, Patel A. [Single-cell CUTTag analysis of chromatin modifications in differentiation and tumor progression](https://doi. org/10.1038/s41587-021-00865-z). &lt;em&gt;&lt;strong&gt;Nature Biotechnology&lt;/strong&gt;&lt;/em&gt;. 2021.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robust Normalization and Integration of Single-cell Protein Expression across CITE-seq Datasets</title>
+      <link>https://yezhengSTAT.github.io/publication/adtnorm/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/adtnorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scGAD: single-cell gene associating domain scores for exploratory analysis of scHi-C data</title>
+      <link>https://yezhengSTAT.github.io/publication/scgad/</link>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/scgad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Normalization and De-noising of Single-cell Hi-C Data with BandNorm and scVI-3D</title>
+      <link>https://yezhengSTAT.github.io/publication/bandnorm/</link>
+      <pubDate>Sun, 24 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/bandnorm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Long-Term Follow-up and Single-Cell Multiomics Characteristics of Infusion Products in Patients with Chronic Lymphocytic Leukemia Treated with CD19 CAR-T Cells</title>
+      <link>https://yezhengSTAT.github.io/publication/cart_citeseq/</link>
+      <pubDate>Tue, 23 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/cart_citeseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeHi-C Spike-in Simulations for Benchmarking Differential Chromatin Interaction Detection</title>
+      <link>https://yezhengSTAT.github.io/publication/freehicspikein/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/freehicspikein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CUT&amp;Tag Data Processing and Analysis Tutorial</title>
+      <link>https://yezhengSTAT.github.io/post/cuttag/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/cuttag/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.protocols.io/view/cut-amp-tag-data-processing-and-analysis-tutorial-e6nvw93x7gmk/v1&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CUT&amp;amp;Tag Data Processing and Analysis Tutorial on Protocols.io&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Discovering How Heme Controls Genome Function Through Heme-omics. Cell Reports</title>
+      <link>https://yezhengSTAT.github.io/publication/heme/</link>
+      <pubDate>Tue, 30 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/heme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation</title>
+      <link>https://yezhengSTAT.github.io/publication/freehic/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/freehic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FreeHi-C simulates high-fidelity Hi-C data for benchmarking and data augmentation</title>
+      <link>https://yezhengSTAT.github.io/publication_old/freehic/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/freehic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Repetitive Regions of Genomes</title>
+      <link>https://yezhengSTAT.github.io/project/repetitiveregion/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/project/repetitiveregion/</guid>
+      <description>&lt;h2 id=&#34;project-introduction&#34;&gt;Project Introduction&lt;/h2&gt;
+&lt;p&gt;Repetitive DNA is nucleotide sequences that appear multiple times across genome which are abundant in a broad range of species, from bacteria to mammals and cover nearly half of the human genome. The role of repetitive DNA in the genome has remained speculative for decades however several recent studies have demonstrated that repetitive DNA can be potentially a vital drive for stabilizing genome contact. For instance, short tandem repeats, whose expansion is the direct reason for more than 25 inherited human disorders such as fragile X syndrome and Huntington, has proven to co-localize with chromatin domain boundaries (Sun et al. 2018. Cell).&lt;/p&gt;
+&lt;p&gt;My interest in the repetitive DNA began when I was participating in the ENCODE III project where I developed Permseq (Xin et al. 2015. &lt;em&gt;PLOS Computational Biology&lt;/em&gt;), an R package to mapping protein-DNA interactions in highly repetitive regions of the genomes with prior-enhanced read mapping. I have found striking false positives and false negatives if reads originated from the repetitive regions are discarded due to alignment uncertainty.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_8e4b01676803eec8fb6db4b851397643.webp 400w,
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_0ad11bb82a38fddfdf044fc7e7320235.webp 760w,
+               /project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/repetitiveregion/chipRepeats_hu05315dfbf938ed3400e96f8ee4cebf48_240061_8e4b01676803eec8fb6db4b851397643.webp&#34;
+               width=&#34;481&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Later on, I developed mHi-C (Zheng et al. 2020. &lt;em&gt;Nature Methods&lt;/em&gt;) to address similar multi-mapping reads issue in 3D nucleosome studies yielding significant improvement in sequencing depth and refined inference of genome structure and functions.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;te&#34; srcset=&#34;
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_db219048fe19c9d58d3f5562941659c4.webp 400w,
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_9d9303c7cbf8ad20053abec0ead8f782.webp 760w,
+               /project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_1200x1200_fit_q100_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://yezhengSTAT.github.io/project/repetitiveregion/hicProp_hufae7d2524bab31e089f14d7c9d6eed20_148394_db219048fe19c9d58d3f5562941659c4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;416&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Cheng J, Clayton J, Acemel R, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Taylor R, Keleş S, Harley J, Quail E, Gómez-Skarmeta J and Ulgiati D. &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fimmu.2022.901747/full&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regulatory architecture of the RCA gene cluster captures an intragenic TAD boundary and enhancer elements in B cells&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Frontiers in Immunology, section B Cell Biology&lt;/strong&gt;&lt;/em&gt;. 2022.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, et al. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2493-4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Expanded Encyclopedias of DNA Elements in the Human and Mouse Genomes&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020 .&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The ENCODE Project Consortium, Snyder, M.P., Gingeras, T.R., Moore, J.E., Weng, Z., Gerstein, M.B., Ren, B., Hardison, R.C., Stamatoyannopoulos, J.A., Graveley, B.R., Feingold, E.A. and Pazin, M.J. &lt;a href=&#34;https://doi.org/10.1038/s41586-020-2449-8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perspectives on ENCODE&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;Nature&lt;/strong&gt;&lt;/em&gt;. 2020.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Zheng Y&lt;/strong&gt;, Ay F, Keleş S. &lt;a href=&#34;https://elifesciences.org/articles/38070&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative modeling of multi-mapping reads with mHi-C advances analysis of Hi-C studies&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;eLife&lt;/strong&gt;&lt;/em&gt;. 2019.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zeng X, Li B, Welch R, Rojo C, &lt;strong&gt;Zheng Y&lt;/strong&gt;, Dewey CN, Keleş S. &lt;a href=&#34;https://doi.org/10.1371/journal.pcbi.1004491.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Perm-seq: Mapping Protein-DNA Interactions in Segmental Duplication and Highly Repetitive Regions of Genomes with Prior-enhanced Read Mapping&lt;/a&gt;. &lt;em&gt;&lt;strong&gt;PLoS Computational Biology&lt;/strong&gt;&lt;/em&gt;. 2015.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://yezhengSTAT.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative Modeling of Multi-mapping Reads with mHi-C Advances Analysis of High Throughput Genome-wide Conformation Capture Studies</title>
+      <link>https://yezhengSTAT.github.io/publication/mhic/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication/mhic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generative Modeling of Multi-mapping Reads with mHi-C Advances Analysis of High Throughput Genome-wide Conformation Capture Studies.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/mhic/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/mhic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Three-dimensional genome architecture and disease variants</title>
+      <link>https://yezhengSTAT.github.io/post/3dreview/</link>
+      <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/3dreview/</guid>
+      <description>&lt;p&gt;I feel lucky to run into &lt;a href=&#34;https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-017-0477-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Three-dimensional genome architecture and emerging technologies: looping in disease&lt;/a&gt; on Twitter. This review comprehensively and logically discussed the hierarchical genome architecture and summarized existing three-dimensional genome structure techniques: &amp;ldquo;C&amp;rdquo;-related, CHiC, Capture-HiC, DNase-HiC, ChIA-PET/HiChIP/PLAC-seq and CRISPR-based methods, with a gigantic table, reviewing the advantages/limits/relevant examples/computational pipeline.
+More importantly, it is such a resourceful paper that summarized how researchers associated all kinds of 3D techniques with disease-related SNPs. This gave us a clear view of what kind of 3D datasets publically available and to what extent have scientists come up with statistical models to link SNPs from non-coding regions with distal genes. I listed a few of them as follows:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;3D techniques, CHi-C/p-CHi-C/HiCap, provides high-resolution cis-interactome data at clinically relevant loci such as regulatory elements, single nucleotide polymorphisms (SNPs) from GWASs, TAD boundaries or promoters. Important tools for connecting GWAS outcomes to target genes (many loci to all loci). (Namely, they can extract &amp;ldquo;promoter - other regions&amp;rdquo; interactions.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pipeline to analyze them: &lt;a href=&#34;https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0992-2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CHiCAGO: robust detection of DNA looping interactions in Capture Hi-C data.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Capture-Hi-C: A detailed catalogue of 22,000 promoter interactions was generated using promoter CHi-C for two blood cell types: the lymphoblast line GM12878 and CD34+ hematopoietic progenitor cells. 3D interaction data indicated that SNPs associated with autoimmune and other hematological disorders were significantly enriched at interacting distal regulatory sites of targeted promoters. &lt;a href=&#34;https://www.nature.com/articles/ng.3286&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mapping long-range promoter contacts in human cells with high-resolution capture Hi-C.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CHi-C was also applied to study autoimmune-disease associated SNPs in GM12878 B-cell and Jurkat T-cell lines. These findings demonstrated that different autoimmune-associated variants interact with common gene promoters. They also contradict the long-held assumption that disease-causing genes and their associated variants should be in close linkage disequilibrium (LD) to impart an effect. &lt;a href=&#34;https://www.nature.com/articles/ncomms10069&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Capture Hi-C reveals novel candidate genes and complex long-range interactions with related autoimmune risk loci.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;3D techniques, ChIA-PET/HiChIP/PLAC-seq, study protein-specific chromatin interactome. Important in identifying chromatin architectural roles for proteins (many loci to all loci). (Namely, they study the &amp;ldquo;protein binding sites - other regions&amp;rdquo; interactions. Protein binding sites are similarly studied by ChIP-seq.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;HiChIP identified genome-wide cohesin-mediated looping interactions: &lt;a href=&#34;https://www.nature.com/articles/nmeth.3999&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HiChIP: efficient and sensitive analysis of protein-directed genome architecture.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PLAC-seq targets H3K4me3 histone marks to generate improved maps of promoter-enhancer interactions in mESCs: &lt;a href=&#34;https://www.nature.com/articles/cr2016137&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mapping of long-range chromatin interactions by proximity ligation-assisted ChIP-seq.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Hi-C maps for cortical and germinal brain regions identified increased promoter-enhancer interactions compared with other tissues. The authors found novel human-gained enhancers showed significant overlap with lineage-specific lncRNAs and 108 significant schizophrenia-associated variants. (I feel it paper offers excellent data for a more advanced statistical model to link Hi-C with schizophrenia GWAS study!): &lt;a href=&#34;https://www.nature.com/articles/nature19847&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chromosome conformation elucidates regulatory relationships in developing human brain.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Integrating study of 21 different cell and tissues types of Hi-C maps determines frequently interacting enhancer regions (FIRE) which usually associated with super-enhancers, typical enhancers etc (basically they are biologically functionally active regions).  FIREs are tissue-specific, distinct disease-associated FIREs further strengthens the association: Alzheimer&amp;rsquo;s SNPs were found in brain-specific FIREs and SNPs for acute lymphoblastic leukemia were found in GM12878-specific super-FIREs. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2211124716314814&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;A Compendium of Chromatin Contact Maps Reveals Spatially Active Regions in the Human Genome.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A MODEL leveraged existing Hi-C data to determine that variants at regulatory elements outside of LD blocks interacted with genes or their enhancers harboring linked SNPs to impact gene expression and disease risk: &lt;a href=&#34;https://www.nature.com/articles/ng.3674&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Modeling disease risk through analysis of physical interactions between genetic variants within chromatin regulatory circuitry.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Another study generates extensive catalogues of distal genomic regions that interact with promoters, or promoter-interacting regions (PIRs), in 17 primary hematopoietic cell types, linking 2500 novel SNPs to putative disease-associated genes related to blood and autoimmune disorders. &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S0092867416313228?via%3Dihub&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lineage-Specific Genome Architecture Links Enhancers and Non-coding Disease Variants to Target Gene Promoters.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This is not in the review paper but certainly offers good Hi-C and other DNA sequencing datasets for Cardiac Myocytes: &lt;a href=&#34;https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.117.029430&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;High Resolution Mapping of Chromatin Conformation in Cardiac Myocytes Reveals Structural Remodeling of the Epigenome in Heart Failure.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Collectively, this review paper is really a good starting point for establishing thoughts of modeling how distal non-coding regulatory variants impact gene using 3D technologies.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GATA/Heme Multi-omics Reveals a Trace Metal-Dependent Cellular Differentiation Mechanism.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/gata/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/gata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Single-Nucleotide Human Disease Mutation Inactivates a Blood-Regenerative Enhancer.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/ets/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/ets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Page</title>
+      <link>https://yezhengSTAT.github.io/software/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/software/example/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example2</title>
+      <link>https://yezhengSTAT.github.io/software/example2/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/software/example2/</guid>
+      <description>&lt;p&gt;ha wa you&lt;/p&gt;
+&lt;h2 id=&#34;tip4&#34;&gt;Tip4&lt;/h2&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;tip-5&#34;&gt;Tip 5&lt;/h2&gt;
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TreeHiC: Hierarchical Testing for Differential Chromatin Interactions.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/treehic/</link>
+      <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/treehic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://yezhengSTAT.github.io/privacy/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://yezhengSTAT.github.io/privacy/</guid>
+      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Terms</title>
+      <link>https://yezhengSTAT.github.io/terms/</link>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
+      <guid>https://yezhengSTAT.github.io/terms/</guid>
+      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cython - Linking C/C&#43;&#43; with Python</title>
+      <link>https://yezhengSTAT.github.io/post/cython/</link>
+      <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/cython/</guid>
+      <description>&lt;p&gt;All the contents in this note are summarized from two Cython tutorials:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Cython - A guide for Python programmers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Learning Cython Programming second edition.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;compile&#34;&gt;Compile&lt;/h2&gt;
+&lt;h3 id=&#34;compile-by-hand&#34;&gt;Compile by hand&lt;/h3&gt;
+&lt;p&gt;1.From file.pyx to file.c (c file)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cython file.pyx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Type &lt;code&gt;$cython&lt;/code&gt; to check all the options available for cython such as &lt;code&gt;--cplus&lt;/code&gt;(instead of generating file.c, file.cpp is generated) &lt;code&gt;--embed&lt;/code&gt;(embed the python interpreter) &lt;code&gt;-2&lt;/code&gt; &lt;code&gt;-3&lt;/code&gt; (compile based on python 2 or python 3 syntax and code semantic), etc.&lt;/p&gt;
+&lt;p&gt;2.From file.c to file.o (object file)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcc -g -O2 -fpic &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;python-config --cflags&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt; -c file.c -o file.o
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3.From file.o to file.so (dynamic library)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcc -shared -o file.so file.o &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;python-config --libs&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;or 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;LDFLAGS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;python-config --ldflags&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcc file.o -o file.so -shared &lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;LDFLAGS&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;pyximport-module-very-convenient-import-pyx-just-like-importing-py-module&#34;&gt;pyximport module (very convenient! import .pyx just like importing .py module)&lt;/h3&gt;
+&lt;p&gt;Get the file.pyx ready and in python or ipython:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pyximport&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;pyximport&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;install&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;file&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;function&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;para&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;calling-c-functions-from-python&#34;&gt;Calling C functions from Python&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;AddFunction.c&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;AddFunction&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Look we are within your c code!!&lt;/span&gt;&lt;span class=&#34;se&#34;&gt;\n&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;AddFunction.h&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-c&#34; data-lang=&#34;c&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#ifndef __ADDFUNCTION_H__
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#define __ADDFUNCTION_H__
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;extern&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;AddFunction&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#endif &lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//__ADDFUNCTION_H__
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;PyAddFunction.pyx&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;cdef&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;extern&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;AddFunction.h&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;n&#34;&gt;cdef&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AddFunction&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#Python entry point - calling C function&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;Add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;AddFunction&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;b&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Compile&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cython PyAddFunction.pyx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcc -g -O2 -fpic -c PyAddFunction.c -o PyAddFunciton.o &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;python-config --includes&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcc -g -O2 -fpic -c AddFunction.c -o AddFunction.o
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gcc -g -O2 -shared -o PyAddFunction.so AddFunction.o PyAddFunction.o &lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;python-config --libs&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Load function&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;PyAddFunction&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Add&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Add&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ggplot2 Summary and Color Recommendation</title>
+      <link>https://yezhengSTAT.github.io/post/ggplot2/</link>
+      <pubDate>Sun, 19 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/ggplot2/</guid>
+      <description>&lt;p&gt;Due to data confidencial issues, only codes are summarized.&lt;/p&gt;
+&lt;h2 id=&#34;basic-format&#34;&gt;Basic format&lt;/h2&gt;
+&lt;p&gt;Key points:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;larger text&lt;/li&gt;
+&lt;li&gt;white background&lt;/li&gt;
+&lt;li&gt;proper position/rotation/content of label or title or legend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;#data frame&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;geom_bar&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;x, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;value, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;label&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;#bar plot&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;facet_grid&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; ~ type, &lt;span class=&#34;nv&#34;&gt;scales&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;free_x&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# one panel for one type variable&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;geom_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;value&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 6, &lt;span class=&#34;nv&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;position_dodge&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.9&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;vjust&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;-0.25&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# add value to each bar with proper position&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;theme&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;axis.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;angle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# text at ticks can be rotated by angle to avoid overlap labels&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      plot.title &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;22&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# title size&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      axis.title &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# axis label size&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      panel.border &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;NA, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      panel.grid.major &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_line&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# background grid&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      panel.grid.minor &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      panel.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;#  white background instead of default grey&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      legend.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# legend text size&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      legend.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      strip.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      strip.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;labs&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;x aixs label&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;y axis label&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;15&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# axis label&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ylim&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;0, 1&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + xlim&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;0, 1&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# lim of x or y&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggtitle&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Average Number of Significant Contacts (Transcript Factors) &amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# plot title&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;no-label-and-no-tick-with-flexible-legend-position&#34;&gt;No label and no tick with flexible legend position&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Type, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; value, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Type&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;geom_bar&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;stat&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;geom_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;label&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;value&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 6, &lt;span class=&#34;nv&#34;&gt;position&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;position_dodge&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;width&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.9&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;vjust&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;-0.25&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;theme&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;axis.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;angle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, plot.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;22&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.ticks.x &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# no ticks on x&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.text.x &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# no text on x&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.ticks.y &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.text.y &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.title.x &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# no label on x&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.title &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.border &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;NA, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.grid.major &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_line&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.grid.minor &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.justification &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; c&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;1,1&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# move legend into the panel &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.position &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; c&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;0.95,0.95&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;c1&#34;&gt;# legend is at the right upper conner&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          strip.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          strip.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;scatter-plot-with-size-and-color-label&#34;&gt;Scatter plot with size and color label&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;library&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;virids&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# one of my favoriate color package&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  geom_point&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; run, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; delay, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; speed, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;load&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;color&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;shape&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 21&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# scatter plot size determined by speed, filled color determined by load, boundary of the cycle point is black.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  scale_fill_viridis&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;discrete&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; TRUE&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# discrete value&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  geom_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; run, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; delay, &lt;span class=&#34;nv&#34;&gt;label&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; timing&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0, &lt;span class=&#34;nv&#34;&gt;vjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# add label to each scatter point&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;scatter-plot-with-smooth-regression-or-linear-regression&#34;&gt;scatter plot with smooth regression or linear regression&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;geom_point&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; run, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; delay, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; load&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;geom_smooth&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; run, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; delay, &lt;span class=&#34;nv&#34;&gt;color&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; load&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;method&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;loess&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;se&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; FALSE&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# method can be lm for linear regression or loess for smooth regression; group by load will end up with several regressions of each group.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# se = TRUE will give Confidence Interval&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;boxplot-with-lines&#34;&gt;boxplot with lines&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;add median summary line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;p &amp;lt;- ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; dose:brand, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; pcnt&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;geom_boxplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; ratio&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;stat_summary&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;fun.y &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; median, &lt;span class=&#34;nv&#34;&gt;geom&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;line&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;position&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;identity&amp;#34;&lt;/span&gt;, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; dose:brand, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; pcnt_ratio, &lt;span class=&#34;nv&#34;&gt;group&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1.6&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# add a thick line connecting the median value of each group of boxplot&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ylab&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;label&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Response (after / before ratio)&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xlab&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;label&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Dose : Brand&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;guides&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; guide_legend&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;title&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;ET Ratio&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# change legend title - to remove legend: guides(fill = FALSE)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;theme&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;axis.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;angle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      plot.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      axis.title &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      panel.border &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;NA, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      panel.grid.major &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_line&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      panel.grid.minor &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      panel.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      legend.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      legend.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      strip.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      strip.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggsave&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Keyplot1.pdf&amp;#34;&lt;/span&gt;, p&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# another way to save the plot other than pdf() and dev.off()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;add regression line&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  geom_boxplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; factor&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;Day&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,y &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Proportion, &lt;span class=&#34;nv&#34;&gt;color&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Treatment&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.8&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# x is factor level by using x = factor(, level = c(&amp;#34;&amp;#34;)) to determine x order&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  stat_smooth&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;method&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;loess&amp;#34;&lt;/span&gt;, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; factor&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;Day&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Proportion, &lt;span class=&#34;nv&#34;&gt;group&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;Treatment, &lt;span class=&#34;nv&#34;&gt;color&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; Treatment&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;se&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;FALSE, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.8&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  scale_color_viridis&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;discrete&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; TRUE&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  facet_wrap&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;~Application, &lt;span class=&#34;nv&#34;&gt;nrow&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 2&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# divide into several panel by Application with 2 rows.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  theme&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;legend.position &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;bottom&amp;#34;&lt;/span&gt;, legend.direction &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;horizontal&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# legend is placed at bottom and direction is horizontal instead of vertical on the right&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;color&#34;&gt;Color&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://colorbrewer2.org/#type=sequential&amp;amp;scheme=BuGn&amp;amp;n=3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sequencial color gradient(color brewer)&lt;/a&gt; Highly recommended!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nceas.ucsb.edu/~frazier/RSpatialGuides/colorPaletteCheatsheet.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;cheatsheet&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://sape.inf.usi.ch/quick-reference/ggplot2/colour&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;predefined color name&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;library(RColorBrewer)&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;logFC, -log2&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;p&lt;span class=&#34;o&#34;&gt;)))&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    geom_point&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; -log2&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;p&lt;span class=&#34;o&#34;&gt;)))&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    scale_color_gradient&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;high&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;low&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#05D9F6&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# higher value is black but smaller value scatter point is defined as #05D9F6       &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    theme&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;axis.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;angle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          plot.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.title &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.border &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;NA, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.grid.major &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_line&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.grid.minor &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          strip.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          strip.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;library(viridis)&lt;/code&gt; # devtools::install_github(&amp;ldquo;sjmgarnier/viridis&amp;rdquo;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Again, one of my favoriate color package which I also find easy to distinguish.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Use the color scales in this package to make plots that are pretty, better represent your data, easier to read by those with colorblindness, and print well in grey scale.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Full introduction of viridis&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To modify local image size in markdown:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;&amp;lt;img &lt;span class=&#34;nv&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;{{ site.baseurl}}/images/viridis.png&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;alt&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Drawing&amp;#34;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;width: 400px;&amp;#34;&lt;/span&gt;/&amp;gt;&lt;span class=&#34;sb&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Manhattan plot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;manhattan&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data, &lt;span class=&#34;nv&#34;&gt;logp&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; FALSE, &lt;span class=&#34;nv&#34;&gt;suggestiveline&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; F, &lt;span class=&#34;nv&#34;&gt;genomewideline&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; F , &lt;span class=&#34;nv&#34;&gt;col&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; plasma&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;7, &lt;span class=&#34;nv&#34;&gt;alpha&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.4,begin &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.2, &lt;span class=&#34;nv&#34;&gt;end&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.9&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; , &lt;span class=&#34;nv&#34;&gt;ylim&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; c&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;-8, 8&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;cex&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.7&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# manhattan plot - scatter plot for genome data with chromosome local&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;hexbin plot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Too many black points in the figure? Use hexbin plot to find underlying pattern!&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;library&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;RColorBrewer&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;x, y&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    stat_binhex&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;bins&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 100&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    scale_fill_gradientn&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colours&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; brewer.pal&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;8, &lt;span class=&#34;s2&#34;&gt;&amp;#34;Spectral&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;trans&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;log10&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;labels&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; trans_format&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;log10&amp;#39;&lt;/span&gt;, math_format&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;10^.x&lt;span class=&#34;o&#34;&gt;)))&lt;/span&gt; +  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    theme&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;axis.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;angle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          plot.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.title &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.border &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;NA, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.grid.major &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_line&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.grid.minor &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          strip.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          strip.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;pretty-heatmap&#34;&gt;pretty heatmap&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;annotation &amp;lt;- data.frame&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;State&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; factor&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;rep&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;1:6, &lt;span class=&#34;nv&#34;&gt;each&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; n&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                          &lt;span class=&#34;nv&#34;&gt;labels&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; c&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;State1&amp;#34;&lt;/span&gt;, &lt;span class=&#34;s2&#34;&gt;&amp;#34;State2&amp;#34;&lt;/span&gt;, &lt;span class=&#34;s2&#34;&gt;&amp;#34;State3&amp;#34;&lt;/span&gt;, &lt;span class=&#34;s2&#34;&gt;&amp;#34;State4&amp;#34;&lt;/span&gt;, &lt;span class=&#34;s2&#34;&gt;&amp;#34;State5&amp;#34;&lt;/span&gt;, &lt;span class=&#34;s2&#34;&gt;&amp;#34;State6&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)))&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# six states with n samples for each state&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;anno_colors &amp;lt;- list&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;State&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; State&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pheatmap&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;matrix, 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;nv&#34;&gt;color&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; colorRampPalette&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;rev&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;brewer.pal&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 11, &lt;span class=&#34;nv&#34;&gt;name&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Spectral&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)))(&lt;/span&gt;40&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;nv&#34;&gt;annotation_colors&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; anno_colors, 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;nv&#34;&gt;annotation&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; annotation, &lt;span class=&#34;c1&#34;&gt;# labels for column groups which will appear in the state legend&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;nv&#34;&gt;cluster_rows&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; T, &lt;span class=&#34;c1&#34;&gt;#hierarchical clustering on the rows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;nv&#34;&gt;cluster_cols&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; F, 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;nv&#34;&gt;show_rownames&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; F, 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;nv&#34;&gt;show_colnames&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; F, 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;nv&#34;&gt;filename&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;heatmap_bound.pdf&amp;#34;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;#figure saved as pdf&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;density-plot-with-histgram-and-fill-in-color&#34;&gt;Density plot with histgram and fill in color&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; x, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; label&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;+ geom_density&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;alpha&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; .3&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# overlap density with transparent color&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; improve&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; + &lt;span class=&#34;c1&#34;&gt;# density plot with histgram&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  geom_density&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;alpha&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.3, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;#FF6666&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; + 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  geom_histogram&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; ..density..&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;color&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;alpha&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  scale_x_continuous&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;breaks&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;c&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;5, 10, 15, 20,25, 30&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  labs&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  theme&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;axis.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;angle&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 1.2, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          plot.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;20, &lt;span class=&#34;nv&#34;&gt;hjust&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          axis.title &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;18&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.border &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;, &lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;NA, &lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;0.5&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.grid.major &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_line&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;lightgrey&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.grid.minor &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_blank&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          panel.background &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_rect&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;fill&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;white&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; 16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          legend.title&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;16&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          strip.text &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; element_text&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;18, &lt;span class=&#34;nv&#34;&gt;colour&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;black&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;xtable-conveniently-transfer-test-results-into-latex-table-really-handy&#34;&gt;xtable conveniently transfer test results into latex table! Really Handy!!&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;xtable&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;summary&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;lm&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;y~x, &lt;span class=&#34;nv&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; data&lt;span class=&#34;o&#34;&gt;)))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ggrepel-for-repeling-overlapping-text-labels-away-from-each-other&#34;&gt;ggrepel for repeling overlapping text labels away from each other&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ggplot&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;data, aes&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;x, y&lt;span class=&#34;o&#34;&gt;))&lt;/span&gt; +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;... +
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;geom_text_repel&lt;span class=&#34;o&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;[Update!]&lt;/p&gt;
+&lt;h2 id=&#34;final-biggest-recommendation-for-publication-figures&#34;&gt;Final BIGGEST recommendation for publication figures:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.sthda.com/english/rpkgs/ggpubr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ggpubr&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;+ ggpubr::theme_pubclean()&lt;/code&gt; or &lt;code&gt;+ ggpubr::theme_pubr()&lt;/code&gt; is the only command needed to automatically get a clean and formal figure ready for publication without turning the above parameters at all!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Download data from GEO</title>
+      <link>https://yezhengSTAT.github.io/post/sra/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/sra/</guid>
+      <description>&lt;p&gt;Previously (a year ago), NCBI still offers ftp downloading (wget ftp path) or simple-clicking downloading data on GEO (from supplementary section). However, right now they only support batch command line downloading using their tool called &lt;a href=&#34;https://github.com/ncbi/sra-tools/wiki/Building-and-Installing-from-Source&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;sratools&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;0.SRAtools Installation: ncbi-vdb -&amp;gt; ngs -&amp;gt; sratools. Detailed installation guidelines at here. On our server (ramiz01-05) or on CHTCcondor, we need to install it locally, therefore here are my commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir ncbi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ncbi
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/ncbi/sra-tools.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/ncbi/ngs.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/ncbi/ncbi-vdb.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ncbi-vdb
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./configure --prefix&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;path/to/ncbi/sra-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ../ngs
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./configure --prefix&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;path/to/ncbi/sra-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## I didn&amp;#39;t have any issue with ngs installation on our server ramiz01-05 but the above command fails on the HTCondor. According to the error, I configure the subunit tools manually and respectively:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -C ngs-sdk
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -C ngs-java
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -C ngs-sdk install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make -C ngs-java install
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;## *******************************&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ../sra-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;./configure --prefix&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;path/to/ncbi/sra-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;make install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Besides, on chtc condor, their gcc version is not high enough to configure sra-tools, therefore, I locally installed gcc with the latest version with the help from this blog.&lt;/p&gt;
+&lt;p&gt;1.Usage:&lt;/p&gt;
+&lt;p&gt;To download the sra file: prefetch SRR**
+To get the fastq file: fastq-dump [parameters] SRR**
+For example, in my case, I downloaded paired-ended Hi-C reads and save it in two fastq files (SRR5339829_1.fastq SRR5339829_2.fastq) each containing one end:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;$sraDir&lt;/span&gt;/bin/fastq-dump -F --split-files -O &lt;span class=&#34;nv&#34;&gt;$outPath&lt;/span&gt; SRR5339829
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;2.Warning message:
+It seems that sratools is still under development and also due to the network issue you may get some warning message like&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-22T20:47:35 fastq-dump.2.9.1 sys: timeout exhausted &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; reading the file within network system module - mbedtls_ssl_read returned -76 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; NET - Reading information from the socket failed &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Stay calm and ignore such warnings! :) Seriously! As long as in the end, you get a mini report like the following, the downloading procedure is successful:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Read &lt;span class=&#34;m&#34;&gt;256975996&lt;/span&gt; spots &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; SRR5339835
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Written &lt;span class=&#34;m&#34;&gt;256975996&lt;/span&gt; spots &lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; SRR5339835
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3.Network failure on HTCondor:
+After successfully install the sra-tool locally, no matter which command I try, it will always give the same error information:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: connection failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; opening file within cryptographic module - mbedtls_ssl_handshake returned -9984 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; X509 - Certificate verification failed, e.g. CRL, CA or signature check failed &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: mbedtls_ssl_get_verify_result returned 0x8 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;  !! The certificate is not correctly signed by the trusted CA  &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: connection failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; opening file within cryptographic module - ktls_handshake failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; accessing &lt;span class=&#34;s1&#34;&gt;&amp;#39;128.105.244.82&amp;#39;&lt;/span&gt; from &lt;span class=&#34;s1&#34;&gt;&amp;#39;128.105.244.177&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: connection failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; opening file within cryptographic module - mbedtls_ssl_handshake returned -31104 &lt;span class=&#34;o&#34;&gt;(&lt;/span&gt; SSL - Processing of the ServerHello handshake message failed &lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;2018-07-19T21:49:06 test-sra.2.9.1 sys: connection failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; opening file within cryptographic module - ktls_handshake failed &lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; accessing &lt;span class=&#34;s1&#34;&gt;&amp;#39;128.105.244.82&amp;#39;&lt;/span&gt; from &lt;span class=&#34;s1&#34;&gt;&amp;#39;128.105.244.177&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It is due to the network proxy and the solution recommended by Christina from chtc condor is that:&lt;/p&gt;
+&lt;p&gt;Adding the following to a job’s executable (the shell script) fixed the sra download error:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;unset&lt;/span&gt; http_proxy
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;unset&lt;/span&gt; HTTPS_PROXY
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;unset&lt;/span&gt; FTP_PROXY
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;HOME&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$_CONDOR_SCRATCH_DIR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Practical Shell Commands to Manipulate Genome Data</title>
+      <link>https://yezhengSTAT.github.io/post/bash/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/bash/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Filter file 2 by file 1 column 1.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;ndash; Found &lt;a href=&#34;http://unix.stackexchange.com/questions/90489/compare-two-files-with-first-column-and-remove-duplicate-row-from-2nd-file-in-sh&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;FNR==NR{a[$1];next};!($1 in a)&amp;#39;&lt;/span&gt; file1 file2 &amp;gt; file3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Explanation:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;FNR == NR&lt;/code&gt;: This test is true when the number of records is equal to the number of records in the file. This is only true for the first file, for the second file NR will be equal to the number of lines of file1 + FNR.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;a[$1]&lt;/code&gt;: Create an array element index of the first field of file1.&lt;/p&gt;
+&lt;p&gt;next: skip to the next record so no more processing is done on file1.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;!($1 in a)&lt;/code&gt;: See if the first field ($1) is present in the array, ie in file1, and print the whole line (to file3).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Print number in certain column.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{split($13, editDist, &amp;#34;:&amp;#34;);split($16, mismatch, &amp;#34;:&amp;#34;); split($17, gap, &amp;#34;:&amp;#34;); split($18, gapLen, &amp;#34;:&amp;#34;); printeditDist[3]&amp;#34;\t&amp;#34;mismatch[3]+gapLen[3]&amp;#34;\t&amp;#34;mismatch[3]&amp;#34;\t&amp;#34;gap[3]&amp;#34;\t&amp;#34;gapLen[3]}&amp;#39;&lt;/span&gt; n3yesn2no.sam &amp;gt;n3yesn2no_summary.sam
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;FNR==NR{a[$1];next};($1 in a)&amp;#39;&lt;/span&gt; file1 file2 &amp;gt; file3
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Group by the first and second column and sum the third column.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{a[$1&amp;#34; &amp;#34;$2]+=$3}END{for (i in a) print i,a[i]}&amp;#39;&lt;/span&gt; aaa.txt &lt;span class=&#34;p&#34;&gt;|&lt;/span&gt; sort
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Insert a column after certain column. e.g.insert after the second column&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;$2 = $2 FS &amp;#34;0&amp;#34;&amp;#39;&lt;/span&gt; file &amp;gt;outfile
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Sort value eg. chr1 1005; chr1 105. -&amp;gt; chr1 105; chr1 1005&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sort -k1,1V -k2,2n infile &amp;gt;outfile
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;sort  -g&lt;/code&gt;: exponential value&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sort -r&lt;/code&gt;: decreasing order&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;wc -l&lt;/code&gt; write to file: remove the path of the counted file:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sed &lt;span class=&#34;s1&#34;&gt;&amp;#39;s/\([0-9]*\).*/\1/&amp;#39;&lt;/span&gt; input &amp;gt;outfile
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;less input:
+284 /p/keles/ENCODE-TE/volume13/SRR881996_Large/defaultDir/fithicDir/chr1/chr1.sign.contact
+281 /p/keles/ENCODE-TE/volume13/SRR881996_Large/defaultDir/fithicDir/chr2/chr2.sign.contact
+less output:
+284
+281&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Split a large file into parts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;split &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;OPTION&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;INPUT &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;PREFIX&lt;span class=&#34;o&#34;&gt;]]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-l equal lines in each part
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-b equal bytes in each part
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-d enables a numeric suffix like prefix00 prefix01
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;enabling the option -a to 1, single digit numeric suffix is se.t
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Find multiple folder size.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;du -sch *
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;awk filter by variable values.
+Cannot input the variable directly, instead define a new value and compare with the column of interest:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;thre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;760&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;$1 &amp;lt; thre {print $0}&amp;#39;&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;thre&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$thre&lt;/span&gt; input
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;awk print just change the first column and print all the column except the modified first column:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk -v &lt;span class=&#34;nv&#34;&gt;OFS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;\t&amp;#34;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;{split($1, id, &amp;#34;.&amp;#34;); $1=&amp;#34;&amp;#34;; {print id[1]&amp;#34;.&amp;#34;id[2], $0}}&amp;#39;&lt;/span&gt; SRR881997_2_01_noheader.sam &amp;gt;/mnt/gluster/yzheng74/HiC/HiCPro/data/SRR881997_2_01_noheader
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;For duplicate parital columns (for example, column2-5), keep the first row when duplicate column2-5 appear.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{if(! a[$1]){print; a[$1]++}}&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;more condemssed way :
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;!a[$1]++&amp;#39;&lt;/span&gt; file
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Sum one column values.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{s+=$1} END {printf &amp;#34;%.0f&amp;#34;, s}&amp;#39;&lt;/span&gt; mydatafile
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{s+=$1} END {print s}&amp;#39;&lt;/span&gt; mydatafile
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Read from file separated by &amp;ldquo;,&amp;rdquo; and save as array.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;IFS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;$&amp;#34;,&amp;#34;&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;read&lt;/span&gt; -r -a &lt;span class=&#34;nb&#34;&gt;test&lt;/span&gt; &amp;lt;infile
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;When sort or picard runs, use tmp folder created locally instead of /tmp or $TMPDIR for space quota safety.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sort -T 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;java -Djava.io.tmpdir&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;tmp
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;picard -jar &lt;span class=&#34;nv&#34;&gt;TMP_DIR&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;tmp
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Always use &lt;code&gt;sort -T /localFolder/sorttmp&lt;/code&gt; when sort a large file on a group server where you have no control of timely cleaning temporary files under /tmp/. Instead, &lt;code&gt;mkdir -p /localFolder/sorttmp&lt;/code&gt; and save all the temporary sorting files there to avoid &lt;code&gt;running out of space under /tmp/&lt;/code&gt; and teminate your specious sorting jobs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;search string in file including TAB;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;grep -P &lt;span class=&#34;s1&#34;&gt;&amp;#39;A\tB&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;World readable:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;chmod &lt;span class=&#34;m&#34;&gt;777&lt;/span&gt; -R folder
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Insert one column at any position:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk -v &lt;span class=&#34;nv&#34;&gt;OFS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;\t&amp;#34;&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;$17 = $17 FS &amp;#34;\t0,255,0&amp;#34;&amp;#39;&lt;/span&gt; inFile &amp;gt;outFile
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;insert 0,255,0 at the 18th column.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;Print the lines if the first column contains certain pattern (partially matched):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;$1 ~ /snow/ { print $0}&amp;#39;&lt;/span&gt; dummy_file 
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;print columns that start with &amp;ldquo;MD&amp;rdquo;:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{for (i=1;i&amp;lt;=NF;i++){if ($i ~/^MD:/) {print $i}}}&amp;#39;&lt;/span&gt; infile
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;merge two file: every two lines from one file and two lines from another:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;awk &lt;span class=&#34;s1&#34;&gt;&amp;#39;{key=$0; getline; getline x&amp;lt;&amp;#34;testsq&amp;#34;; getline y&amp;lt;&amp;#34;testsq&amp;#34;;print key &amp;#34;\n&amp;#34; $0 &amp;#34;\n&amp;#34; x &amp;#34;\n&amp;#34; y;}&amp;#39;&lt;/span&gt; testseq
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using R to output strings as clickable links in table</title>
+      <link>https://yezhengSTAT.github.io/post/r/</link>
+      <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/post/r/</guid>
+      <description>&lt;p&gt;My target is to create a table with the first column linking to the summary figures on UCSC. The links are generated in batch by changing the corresponding
+coordinates. I want to output the strings of links in the table and automatically save them as clickable hyperlinks. Therefore, instead of writing the strings of links to csv or excel directly, we will need to add &lt;code&gt;=HYPERLINK(&amp;quot;*&amp;quot;)&lt;/code&gt; around the string and output &lt;code&gt;=HYPERLINK(&amp;quot;https://genome.ucsc.edu.......submit&amp;quot;)&lt;/code&gt; into the table to make the hyperlinks working.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2017-present Ye Zheng.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Perm-seq: mapping protein-DNA interactions in segmental duplication and highly repetitive regions of genomes with prior-enhanced read mapping.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/permseq/</link>
+      <pubDate>Tue, 20 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/permseq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Bayesian Computation algorithms for estimating network model parameters.</title>
+      <link>https://yezhengSTAT.github.io/publication_old/abc/</link>
+      <pubDate>Thu, 12 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/abc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://yezhengSTAT.github.io/publication_old/example/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/publication_old/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://yezhengSTAT.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yezhengSTAT.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

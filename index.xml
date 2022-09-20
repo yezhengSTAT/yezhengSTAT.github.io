@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ye Zheng</title>
+    <title></title>
     <link>https://yezhengSTAT.github.io/</link>
       <atom:link href="https://yezhengSTAT.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Ye Zheng</description>
+    <description></description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yezhengSTAT.github.io/media/icon_hu73f7157ab925ae64d73c94fd5ceef54d_49900_512x512_fill_lanczos_center_3.png</url>
-      <title>Ye Zheng</title>
+      <title></title>
       <link>https://yezhengSTAT.github.io/</link>
     </image>
     
@@ -602,55 +602,11 @@ More importantly, it is such a resourceful paper that summarized how researchers
     </item>
     
     <item>
-      <title>Example Page</title>
-      <link>https://yezhengSTAT.github.io/software/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://yezhengSTAT.github.io/software/example/</guid>
-      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Example2</title>
-      <link>https://yezhengSTAT.github.io/software/example2/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://yezhengSTAT.github.io/software/example2/</guid>
-      <description>&lt;p&gt;ha wa you&lt;/p&gt;
-&lt;h2 id=&#34;tip4&#34;&gt;Tip4&lt;/h2&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;tip-5&#34;&gt;Tip 5&lt;/h2&gt;
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>TreeHiC: Hierarchical Testing for Differential Chromatin Interactions.</title>
       <link>https://yezhengSTAT.github.io/publication_old/treehic/</link>
       <pubDate>Sun, 02 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://yezhengSTAT.github.io/publication_old/treehic/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>https://yezhengSTAT.github.io/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://yezhengSTAT.github.io/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>https://yezhengSTAT.github.io/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>https://yezhengSTAT.github.io/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
     </item>
     
     <item>
